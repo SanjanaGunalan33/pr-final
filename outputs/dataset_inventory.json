@@ -1,0 +1,55 @@
+{
+  "metadata_records": 735,
+  "feature_records": 733,
+  "joined_records": 735,
+  "records_without_metrics": [
+    "re1ob_currencyservice_loss_1",
+    "re1ob_productcatalogservice_cpu_3"
+  ],
+  "numeric_metric_columns": 1166,
+  "label_mismatches_between_files": 0,
+  "applications": {
+    "Online Boutique": 245,
+    "Sock Shop": 245,
+    "Train Ticket": 245
+  },
+  "root_cause_classes": 18,
+  "root_cause_counts": {
+    "ts-auth-service": 58,
+    "ts-route-service": 58,
+    "carts": 55,
+    "orders": 52,
+    "currencyservice": 46,
+    "checkoutservice": 43,
+    "productcatalogservice": 43,
+    "catalogue": 43,
+    "payment": 43,
+    "user": 43,
+    "ts-order-service": 43,
+    "ts-train-service": 43,
+    "ts-travel-service": 43,
+    "adservice": 34,
+    "emailservice": 33,
+    "cartservice": 28,
+    "recommendationservice": 18,
+    "front-end": 9
+  },
+  "fault_type_counts": {
+    "cpu": 120,
+    "delay": 120,
+    "disk": 120,
+    "loss": 120,
+    "mem": 120,
+    "socket": 45,
+    "f3": 26,
+    "f1": 26,
+    "f4": 19,
+    "f2": 13,
+    "f5": 6
+  },
+  "missing_metric_cell_fraction": 0.76543680778024,
+  "infinite_metric_cells": 0,
+  "duplicate_metric_rows": 0,
+  "scenario_groups": 127,
+  "records_used_for_modelling": 733
+}

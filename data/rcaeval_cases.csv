@@ -1,0 +1,736 @@
+Incident ID,Application,Dataset,Benchmark Suite,Known Root Cause Service,Fault Type,Fault Description,Repetition,Metric Count,Duration (minutes),Normal Timesteps,Faulty Timesteps,Logs Available,Traces Available,Root Cause File Available
+re1ob_adservice_cpu_1,Online Boutique,RE1-OB,RE1,adservice,cpu,CPU stress,1,49,70.0,2100,2101,False,False,False
+re1ob_adservice_cpu_2,Online Boutique,RE1-OB,RE1,adservice,cpu,CPU stress,2,49,70.0,2100,2101,False,False,False
+re1ob_adservice_cpu_3,Online Boutique,RE1-OB,RE1,adservice,cpu,CPU stress,3,49,70.0,2100,2101,False,False,False
+re1ob_adservice_cpu_4,Online Boutique,RE1-OB,RE1,adservice,cpu,CPU stress,4,49,70.0,2100,2101,False,False,False
+re1ob_adservice_cpu_5,Online Boutique,RE1-OB,RE1,adservice,cpu,CPU stress,5,49,70.0,2100,2101,False,False,False
+re1ob_adservice_delay_1,Online Boutique,RE1-OB,RE1,adservice,delay,network delay,1,57,12.0,360,361,False,False,False
+re1ob_adservice_delay_2,Online Boutique,RE1-OB,RE1,adservice,delay,network delay,2,57,12.0,360,361,False,False,False
+re1ob_adservice_delay_3,Online Boutique,RE1-OB,RE1,adservice,delay,network delay,3,57,12.0,360,361,False,False,False
+re1ob_adservice_delay_4,Online Boutique,RE1-OB,RE1,adservice,delay,network delay,4,57,12.0,360,361,False,False,False
+re1ob_adservice_delay_5,Online Boutique,RE1-OB,RE1,adservice,delay,network delay,5,58,12.0,360,361,False,False,False
+re1ob_adservice_disk_1,Online Boutique,RE1-OB,RE1,adservice,disk,disk I/O stress,1,56,12.0,360,361,False,False,False
+re1ob_adservice_disk_2,Online Boutique,RE1-OB,RE1,adservice,disk,disk I/O stress,2,57,12.0,360,361,False,False,False
+re1ob_adservice_disk_3,Online Boutique,RE1-OB,RE1,adservice,disk,disk I/O stress,3,57,12.0,360,361,False,False,False
+re1ob_adservice_disk_4,Online Boutique,RE1-OB,RE1,adservice,disk,disk I/O stress,4,57,12.0,360,361,False,False,False
+re1ob_adservice_disk_5,Online Boutique,RE1-OB,RE1,adservice,disk,disk I/O stress,5,57,12.0,360,361,False,False,False
+re1ob_adservice_loss_1,Online Boutique,RE1-OB,RE1,adservice,loss,network packet loss,1,59,12.0,360,361,False,False,False
+re1ob_adservice_loss_2,Online Boutique,RE1-OB,RE1,adservice,loss,network packet loss,2,59,12.0,360,361,False,False,False
+re1ob_adservice_loss_3,Online Boutique,RE1-OB,RE1,adservice,loss,network packet loss,3,59,12.0,360,361,False,False,False
+re1ob_adservice_loss_4,Online Boutique,RE1-OB,RE1,adservice,loss,network packet loss,4,59,12.0,360,361,False,False,False
+re1ob_adservice_loss_5,Online Boutique,RE1-OB,RE1,adservice,loss,network packet loss,5,59,12.0,360,361,False,False,False
+re1ob_adservice_mem_1,Online Boutique,RE1-OB,RE1,adservice,mem,memory stress,1,49,70.0,2100,2101,False,False,False
+re1ob_adservice_mem_2,Online Boutique,RE1-OB,RE1,adservice,mem,memory stress,2,49,70.0,2100,2101,False,False,False
+re1ob_adservice_mem_3,Online Boutique,RE1-OB,RE1,adservice,mem,memory stress,3,49,70.0,2100,2101,False,False,False
+re1ob_adservice_mem_4,Online Boutique,RE1-OB,RE1,adservice,mem,memory stress,4,49,70.0,2100,2101,False,False,False
+re1ob_adservice_mem_5,Online Boutique,RE1-OB,RE1,adservice,mem,memory stress,5,49,70.0,2100,2101,False,False,False
+re1ob_cartservice_cpu_1,Online Boutique,RE1-OB,RE1,cartservice,cpu,CPU stress,1,49,70.0,2100,2101,False,False,False
+re1ob_cartservice_cpu_2,Online Boutique,RE1-OB,RE1,cartservice,cpu,CPU stress,2,49,70.0,2100,2101,False,False,False
+re1ob_cartservice_cpu_3,Online Boutique,RE1-OB,RE1,cartservice,cpu,CPU stress,3,49,70.0,2100,2101,False,False,False
+re1ob_cartservice_cpu_4,Online Boutique,RE1-OB,RE1,cartservice,cpu,CPU stress,4,49,70.0,2100,2101,False,False,False
+re1ob_cartservice_cpu_5,Online Boutique,RE1-OB,RE1,cartservice,cpu,CPU stress,5,49,70.0,2100,2101,False,False,False
+re1ob_cartservice_delay_1,Online Boutique,RE1-OB,RE1,cartservice,delay,network delay,1,58,12.0,360,361,False,False,False
+re1ob_cartservice_delay_2,Online Boutique,RE1-OB,RE1,cartservice,delay,network delay,2,58,12.0,360,361,False,False,False
+re1ob_cartservice_delay_3,Online Boutique,RE1-OB,RE1,cartservice,delay,network delay,3,58,12.0,360,361,False,False,False
+re1ob_cartservice_delay_4,Online Boutique,RE1-OB,RE1,cartservice,delay,network delay,4,58,12.0,360,361,False,False,False
+re1ob_cartservice_delay_5,Online Boutique,RE1-OB,RE1,cartservice,delay,network delay,5,58,12.0,360,361,False,False,False
+re1ob_cartservice_disk_1,Online Boutique,RE1-OB,RE1,cartservice,disk,disk I/O stress,1,56,12.0,360,361,False,False,False
+re1ob_cartservice_disk_2,Online Boutique,RE1-OB,RE1,cartservice,disk,disk I/O stress,2,57,12.0,360,361,False,False,False
+re1ob_cartservice_disk_3,Online Boutique,RE1-OB,RE1,cartservice,disk,disk I/O stress,3,58,12.0,360,361,False,False,False
+re1ob_cartservice_disk_4,Online Boutique,RE1-OB,RE1,cartservice,disk,disk I/O stress,4,57,12.0,360,361,False,False,False
+re1ob_cartservice_disk_5,Online Boutique,RE1-OB,RE1,cartservice,disk,disk I/O stress,5,58,12.0,360,361,False,False,False
+re1ob_cartservice_loss_1,Online Boutique,RE1-OB,RE1,cartservice,loss,network packet loss,1,59,12.0,360,361,False,False,False
+re1ob_cartservice_loss_2,Online Boutique,RE1-OB,RE1,cartservice,loss,network packet loss,2,59,12.0,360,361,False,False,False
+re1ob_cartservice_loss_3,Online Boutique,RE1-OB,RE1,cartservice,loss,network packet loss,3,59,12.0,360,361,False,False,False
+re1ob_cartservice_loss_4,Online Boutique,RE1-OB,RE1,cartservice,loss,network packet loss,4,59,12.0,360,361,False,False,False
+re1ob_cartservice_loss_5,Online Boutique,RE1-OB,RE1,cartservice,loss,network packet loss,5,59,12.0,360,361,False,False,False
+re1ob_cartservice_mem_1,Online Boutique,RE1-OB,RE1,cartservice,mem,memory stress,1,49,70.0,2100,2101,False,False,False
+re1ob_cartservice_mem_2,Online Boutique,RE1-OB,RE1,cartservice,mem,memory stress,2,49,70.0,2100,2101,False,False,False
+re1ob_cartservice_mem_3,Online Boutique,RE1-OB,RE1,cartservice,mem,memory stress,3,49,70.0,2100,2101,False,False,False
+re1ob_cartservice_mem_4,Online Boutique,RE1-OB,RE1,cartservice,mem,memory stress,4,49,70.0,2100,2101,False,False,False
+re1ob_cartservice_mem_5,Online Boutique,RE1-OB,RE1,cartservice,mem,memory stress,5,49,70.0,2100,2101,False,False,False
+re1ob_checkoutservice_cpu_1,Online Boutique,RE1-OB,RE1,checkoutservice,cpu,CPU stress,1,49,70.0,2100,2101,False,False,False
+re1ob_checkoutservice_cpu_2,Online Boutique,RE1-OB,RE1,checkoutservice,cpu,CPU stress,2,49,70.0,2100,2101,False,False,False
+re1ob_checkoutservice_cpu_3,Online Boutique,RE1-OB,RE1,checkoutservice,cpu,CPU stress,3,49,70.0,2100,2101,False,False,False
+re1ob_checkoutservice_cpu_4,Online Boutique,RE1-OB,RE1,checkoutservice,cpu,CPU stress,4,49,44.6,2100,579,False,False,False
+re1ob_checkoutservice_cpu_5,Online Boutique,RE1-OB,RE1,checkoutservice,cpu,CPU stress,5,49,70.0,2100,2101,False,False,False
+re1ob_checkoutservice_delay_1,Online Boutique,RE1-OB,RE1,checkoutservice,delay,network delay,1,57,12.0,360,361,False,False,False
+re1ob_checkoutservice_delay_2,Online Boutique,RE1-OB,RE1,checkoutservice,delay,network delay,2,57,12.0,360,361,False,False,False
+re1ob_checkoutservice_delay_3,Online Boutique,RE1-OB,RE1,checkoutservice,delay,network delay,3,57,12.0,360,361,False,False,False
+re1ob_checkoutservice_delay_4,Online Boutique,RE1-OB,RE1,checkoutservice,delay,network delay,4,58,12.0,360,361,False,False,False
+re1ob_checkoutservice_delay_5,Online Boutique,RE1-OB,RE1,checkoutservice,delay,network delay,5,58,12.0,360,361,False,False,False
+re1ob_checkoutservice_disk_1,Online Boutique,RE1-OB,RE1,checkoutservice,disk,disk I/O stress,1,56,12.0,360,361,False,False,False
+re1ob_checkoutservice_disk_2,Online Boutique,RE1-OB,RE1,checkoutservice,disk,disk I/O stress,2,58,12.0,360,361,False,False,False
+re1ob_checkoutservice_disk_3,Online Boutique,RE1-OB,RE1,checkoutservice,disk,disk I/O stress,3,58,12.0,360,361,False,False,False
+re1ob_checkoutservice_disk_4,Online Boutique,RE1-OB,RE1,checkoutservice,disk,disk I/O stress,4,58,12.0,360,361,False,False,False
+re1ob_checkoutservice_disk_5,Online Boutique,RE1-OB,RE1,checkoutservice,disk,disk I/O stress,5,58,12.0,360,361,False,False,False
+re1ob_checkoutservice_loss_1,Online Boutique,RE1-OB,RE1,checkoutservice,loss,network packet loss,1,59,12.0,360,361,False,False,False
+re1ob_checkoutservice_loss_2,Online Boutique,RE1-OB,RE1,checkoutservice,loss,network packet loss,2,59,12.0,360,361,False,False,False
+re1ob_checkoutservice_loss_3,Online Boutique,RE1-OB,RE1,checkoutservice,loss,network packet loss,3,59,12.0,360,361,False,False,False
+re1ob_checkoutservice_loss_4,Online Boutique,RE1-OB,RE1,checkoutservice,loss,network packet loss,4,59,12.0,360,361,False,False,False
+re1ob_checkoutservice_loss_5,Online Boutique,RE1-OB,RE1,checkoutservice,loss,network packet loss,5,59,12.0,360,361,False,False,False
+re1ob_checkoutservice_mem_1,Online Boutique,RE1-OB,RE1,checkoutservice,mem,memory stress,1,49,70.0,2100,2101,False,False,False
+re1ob_checkoutservice_mem_2,Online Boutique,RE1-OB,RE1,checkoutservice,mem,memory stress,2,49,70.0,2100,2101,False,False,False
+re1ob_checkoutservice_mem_3,Online Boutique,RE1-OB,RE1,checkoutservice,mem,memory stress,3,49,70.0,2100,2101,False,False,False
+re1ob_checkoutservice_mem_4,Online Boutique,RE1-OB,RE1,checkoutservice,mem,memory stress,4,49,70.0,2100,2101,False,False,False
+re1ob_checkoutservice_mem_5,Online Boutique,RE1-OB,RE1,checkoutservice,mem,memory stress,5,49,70.0,2100,2101,False,False,False
+re1ob_currencyservice_cpu_1,Online Boutique,RE1-OB,RE1,currencyservice,cpu,CPU stress,1,49,70.0,2100,2101,False,False,False
+re1ob_currencyservice_cpu_2,Online Boutique,RE1-OB,RE1,currencyservice,cpu,CPU stress,2,49,70.0,2100,2101,False,False,False
+re1ob_currencyservice_cpu_3,Online Boutique,RE1-OB,RE1,currencyservice,cpu,CPU stress,3,49,70.0,2100,2101,False,False,False
+re1ob_currencyservice_cpu_4,Online Boutique,RE1-OB,RE1,currencyservice,cpu,CPU stress,4,49,70.0,2100,2101,False,False,False
+re1ob_currencyservice_cpu_5,Online Boutique,RE1-OB,RE1,currencyservice,cpu,CPU stress,5,49,70.0,2100,2101,False,False,False
+re1ob_currencyservice_delay_1,Online Boutique,RE1-OB,RE1,currencyservice,delay,network delay,1,57,12.0,360,361,False,False,False
+re1ob_currencyservice_delay_2,Online Boutique,RE1-OB,RE1,currencyservice,delay,network delay,2,57,12.0,360,361,False,False,False
+re1ob_currencyservice_delay_3,Online Boutique,RE1-OB,RE1,currencyservice,delay,network delay,3,58,12.0,360,361,False,False,False
+re1ob_currencyservice_delay_4,Online Boutique,RE1-OB,RE1,currencyservice,delay,network delay,4,58,12.0,360,361,False,False,False
+re1ob_currencyservice_delay_5,Online Boutique,RE1-OB,RE1,currencyservice,delay,network delay,5,57,12.0,360,361,False,False,False
+re1ob_currencyservice_disk_1,Online Boutique,RE1-OB,RE1,currencyservice,disk,disk I/O stress,1,56,12.0,360,361,False,False,False
+re1ob_currencyservice_disk_2,Online Boutique,RE1-OB,RE1,currencyservice,disk,disk I/O stress,2,58,12.0,360,361,False,False,False
+re1ob_currencyservice_disk_3,Online Boutique,RE1-OB,RE1,currencyservice,disk,disk I/O stress,3,58,12.0,360,361,False,False,False
+re1ob_currencyservice_disk_4,Online Boutique,RE1-OB,RE1,currencyservice,disk,disk I/O stress,4,56,12.0,360,361,False,False,False
+re1ob_currencyservice_disk_5,Online Boutique,RE1-OB,RE1,currencyservice,disk,disk I/O stress,5,56,12.0,360,361,False,False,False
+re1ob_currencyservice_loss_1,Online Boutique,RE1-OB,RE1,currencyservice,loss,network packet loss,1,59,12.0,0,721,False,False,False
+re1ob_currencyservice_loss_2,Online Boutique,RE1-OB,RE1,currencyservice,loss,network packet loss,2,59,12.0,360,361,False,False,False
+re1ob_currencyservice_loss_3,Online Boutique,RE1-OB,RE1,currencyservice,loss,network packet loss,3,59,12.0,360,361,False,False,False
+re1ob_currencyservice_loss_4,Online Boutique,RE1-OB,RE1,currencyservice,loss,network packet loss,4,59,12.0,360,361,False,False,False
+re1ob_currencyservice_loss_5,Online Boutique,RE1-OB,RE1,currencyservice,loss,network packet loss,5,59,12.0,360,361,False,False,False
+re1ob_currencyservice_mem_1,Online Boutique,RE1-OB,RE1,currencyservice,mem,memory stress,1,49,70.0,2100,2101,False,False,False
+re1ob_currencyservice_mem_2,Online Boutique,RE1-OB,RE1,currencyservice,mem,memory stress,2,49,70.0,2100,2101,False,False,False
+re1ob_currencyservice_mem_3,Online Boutique,RE1-OB,RE1,currencyservice,mem,memory stress,3,49,70.0,2100,2101,False,False,False
+re1ob_currencyservice_mem_4,Online Boutique,RE1-OB,RE1,currencyservice,mem,memory stress,4,49,70.0,2100,2101,False,False,False
+re1ob_currencyservice_mem_5,Online Boutique,RE1-OB,RE1,currencyservice,mem,memory stress,5,49,70.0,2100,2101,False,False,False
+re1ob_productcatalogservice_cpu_1,Online Boutique,RE1-OB,RE1,productcatalogservice,cpu,CPU stress,1,49,70.0,2100,2101,False,False,False
+re1ob_productcatalogservice_cpu_2,Online Boutique,RE1-OB,RE1,productcatalogservice,cpu,CPU stress,2,49,70.0,2100,2101,False,False,False
+re1ob_productcatalogservice_cpu_3,Online Boutique,RE1-OB,RE1,productcatalogservice,cpu,CPU stress,3,58,1.0,63,0,False,False,False
+re1ob_productcatalogservice_cpu_4,Online Boutique,RE1-OB,RE1,productcatalogservice,cpu,CPU stress,4,49,70.0,2100,2101,False,False,False
+re1ob_productcatalogservice_cpu_5,Online Boutique,RE1-OB,RE1,productcatalogservice,cpu,CPU stress,5,49,70.0,2100,2101,False,False,False
+re1ob_productcatalogservice_delay_1,Online Boutique,RE1-OB,RE1,productcatalogservice,delay,network delay,1,57,12.0,360,361,False,False,False
+re1ob_productcatalogservice_delay_2,Online Boutique,RE1-OB,RE1,productcatalogservice,delay,network delay,2,58,12.0,360,361,False,False,False
+re1ob_productcatalogservice_delay_3,Online Boutique,RE1-OB,RE1,productcatalogservice,delay,network delay,3,58,12.0,360,361,False,False,False
+re1ob_productcatalogservice_delay_4,Online Boutique,RE1-OB,RE1,productcatalogservice,delay,network delay,4,56,12.0,360,361,False,False,False
+re1ob_productcatalogservice_delay_5,Online Boutique,RE1-OB,RE1,productcatalogservice,delay,network delay,5,58,12.0,360,361,False,False,False
+re1ob_productcatalogservice_disk_1,Online Boutique,RE1-OB,RE1,productcatalogservice,disk,disk I/O stress,1,57,12.0,360,361,False,False,False
+re1ob_productcatalogservice_disk_2,Online Boutique,RE1-OB,RE1,productcatalogservice,disk,disk I/O stress,2,57,12.0,360,361,False,False,False
+re1ob_productcatalogservice_disk_3,Online Boutique,RE1-OB,RE1,productcatalogservice,disk,disk I/O stress,3,57,12.0,360,361,False,False,False
+re1ob_productcatalogservice_disk_4,Online Boutique,RE1-OB,RE1,productcatalogservice,disk,disk I/O stress,4,58,12.0,360,361,False,False,False
+re1ob_productcatalogservice_disk_5,Online Boutique,RE1-OB,RE1,productcatalogservice,disk,disk I/O stress,5,58,12.0,360,361,False,False,False
+re1ob_productcatalogservice_loss_1,Online Boutique,RE1-OB,RE1,productcatalogservice,loss,network packet loss,1,59,12.0,360,361,False,False,False
+re1ob_productcatalogservice_loss_2,Online Boutique,RE1-OB,RE1,productcatalogservice,loss,network packet loss,2,59,12.0,360,361,False,False,False
+re1ob_productcatalogservice_loss_3,Online Boutique,RE1-OB,RE1,productcatalogservice,loss,network packet loss,3,59,12.0,360,361,False,False,False
+re1ob_productcatalogservice_loss_4,Online Boutique,RE1-OB,RE1,productcatalogservice,loss,network packet loss,4,59,12.0,360,361,False,False,False
+re1ob_productcatalogservice_loss_5,Online Boutique,RE1-OB,RE1,productcatalogservice,loss,network packet loss,5,59,12.0,360,361,False,False,False
+re1ob_productcatalogservice_mem_1,Online Boutique,RE1-OB,RE1,productcatalogservice,mem,memory stress,1,49,70.0,2100,2101,False,False,False
+re1ob_productcatalogservice_mem_2,Online Boutique,RE1-OB,RE1,productcatalogservice,mem,memory stress,2,49,70.0,2100,2101,False,False,False
+re1ob_productcatalogservice_mem_3,Online Boutique,RE1-OB,RE1,productcatalogservice,mem,memory stress,3,49,70.0,2100,2101,False,False,False
+re1ob_productcatalogservice_mem_4,Online Boutique,RE1-OB,RE1,productcatalogservice,mem,memory stress,4,49,70.0,2100,2101,False,False,False
+re1ob_productcatalogservice_mem_5,Online Boutique,RE1-OB,RE1,productcatalogservice,mem,memory stress,5,49,70.0,2100,2101,False,False,False
+re1ss_carts_cpu_1,Sock Shop,RE1-SS,RE1,carts,cpu,CPU stress,1,59,12.0,360,361,False,False,False
+re1ss_carts_cpu_2,Sock Shop,RE1-SS,RE1,carts,cpu,CPU stress,2,59,12.0,360,361,False,False,False
+re1ss_carts_cpu_3,Sock Shop,RE1-SS,RE1,carts,cpu,CPU stress,3,59,12.0,360,361,False,False,False
+re1ss_carts_cpu_4,Sock Shop,RE1-SS,RE1,carts,cpu,CPU stress,4,59,12.0,360,361,False,False,False
+re1ss_carts_cpu_5,Sock Shop,RE1-SS,RE1,carts,cpu,CPU stress,5,59,12.0,360,361,False,False,False
+re1ss_carts_delay_1,Sock Shop,RE1-SS,RE1,carts,delay,network delay,1,59,12.0,360,361,False,False,False
+re1ss_carts_delay_2,Sock Shop,RE1-SS,RE1,carts,delay,network delay,2,59,12.0,360,361,False,False,False
+re1ss_carts_delay_3,Sock Shop,RE1-SS,RE1,carts,delay,network delay,3,59,12.0,360,361,False,False,False
+re1ss_carts_delay_4,Sock Shop,RE1-SS,RE1,carts,delay,network delay,4,58,12.0,360,361,False,False,False
+re1ss_carts_delay_5,Sock Shop,RE1-SS,RE1,carts,delay,network delay,5,58,12.0,360,361,False,False,False
+re1ss_carts_disk_1,Sock Shop,RE1-SS,RE1,carts,disk,disk I/O stress,1,57,12.0,360,361,False,False,False
+re1ss_carts_disk_2,Sock Shop,RE1-SS,RE1,carts,disk,disk I/O stress,2,57,12.0,360,361,False,False,False
+re1ss_carts_disk_3,Sock Shop,RE1-SS,RE1,carts,disk,disk I/O stress,3,57,12.0,360,361,False,False,False
+re1ss_carts_disk_4,Sock Shop,RE1-SS,RE1,carts,disk,disk I/O stress,4,57,12.0,360,361,False,False,False
+re1ss_carts_disk_5,Sock Shop,RE1-SS,RE1,carts,disk,disk I/O stress,5,57,12.0,360,361,False,False,False
+re1ss_carts_loss_1,Sock Shop,RE1-SS,RE1,carts,loss,network packet loss,1,59,12.0,360,361,False,False,False
+re1ss_carts_loss_2,Sock Shop,RE1-SS,RE1,carts,loss,network packet loss,2,59,12.0,360,361,False,False,False
+re1ss_carts_loss_3,Sock Shop,RE1-SS,RE1,carts,loss,network packet loss,3,59,12.0,360,361,False,False,False
+re1ss_carts_loss_4,Sock Shop,RE1-SS,RE1,carts,loss,network packet loss,4,60,12.0,360,361,False,False,False
+re1ss_carts_loss_5,Sock Shop,RE1-SS,RE1,carts,loss,network packet loss,5,60,12.0,360,361,False,False,False
+re1ss_carts_mem_1,Sock Shop,RE1-SS,RE1,carts,mem,memory stress,1,59,12.0,360,361,False,False,False
+re1ss_carts_mem_2,Sock Shop,RE1-SS,RE1,carts,mem,memory stress,2,58,12.0,360,361,False,False,False
+re1ss_carts_mem_3,Sock Shop,RE1-SS,RE1,carts,mem,memory stress,3,58,12.0,360,361,False,False,False
+re1ss_carts_mem_4,Sock Shop,RE1-SS,RE1,carts,mem,memory stress,4,59,12.0,360,361,False,False,False
+re1ss_carts_mem_5,Sock Shop,RE1-SS,RE1,carts,mem,memory stress,5,59,12.0,360,361,False,False,False
+re1ss_catalogue_cpu_1,Sock Shop,RE1-SS,RE1,catalogue,cpu,CPU stress,1,58,12.0,360,361,False,False,False
+re1ss_catalogue_cpu_2,Sock Shop,RE1-SS,RE1,catalogue,cpu,CPU stress,2,58,12.0,360,361,False,False,False
+re1ss_catalogue_cpu_3,Sock Shop,RE1-SS,RE1,catalogue,cpu,CPU stress,3,59,12.0,360,361,False,False,False
+re1ss_catalogue_cpu_4,Sock Shop,RE1-SS,RE1,catalogue,cpu,CPU stress,4,59,12.0,360,361,False,False,False
+re1ss_catalogue_cpu_5,Sock Shop,RE1-SS,RE1,catalogue,cpu,CPU stress,5,58,12.0,360,361,False,False,False
+re1ss_catalogue_delay_1,Sock Shop,RE1-SS,RE1,catalogue,delay,network delay,1,59,12.0,360,361,False,False,False
+re1ss_catalogue_delay_2,Sock Shop,RE1-SS,RE1,catalogue,delay,network delay,2,59,12.0,360,361,False,False,False
+re1ss_catalogue_delay_3,Sock Shop,RE1-SS,RE1,catalogue,delay,network delay,3,59,12.0,360,361,False,False,False
+re1ss_catalogue_delay_4,Sock Shop,RE1-SS,RE1,catalogue,delay,network delay,4,59,12.0,360,361,False,False,False
+re1ss_catalogue_delay_5,Sock Shop,RE1-SS,RE1,catalogue,delay,network delay,5,58,12.0,360,361,False,False,False
+re1ss_catalogue_disk_1,Sock Shop,RE1-SS,RE1,catalogue,disk,disk I/O stress,1,57,12.0,360,361,False,False,False
+re1ss_catalogue_disk_2,Sock Shop,RE1-SS,RE1,catalogue,disk,disk I/O stress,2,57,12.0,360,361,False,False,False
+re1ss_catalogue_disk_3,Sock Shop,RE1-SS,RE1,catalogue,disk,disk I/O stress,3,57,10.8,360,287,False,False,False
+re1ss_catalogue_disk_4,Sock Shop,RE1-SS,RE1,catalogue,disk,disk I/O stress,4,63,12.0,360,361,False,False,False
+re1ss_catalogue_disk_5,Sock Shop,RE1-SS,RE1,catalogue,disk,disk I/O stress,5,60,12.0,360,361,False,False,False
+re1ss_catalogue_loss_1,Sock Shop,RE1-SS,RE1,catalogue,loss,network packet loss,1,60,12.0,360,361,False,False,False
+re1ss_catalogue_loss_2,Sock Shop,RE1-SS,RE1,catalogue,loss,network packet loss,2,60,12.0,360,361,False,False,False
+re1ss_catalogue_loss_3,Sock Shop,RE1-SS,RE1,catalogue,loss,network packet loss,3,60,12.0,360,361,False,False,False
+re1ss_catalogue_loss_4,Sock Shop,RE1-SS,RE1,catalogue,loss,network packet loss,4,59,12.0,360,361,False,False,False
+re1ss_catalogue_loss_5,Sock Shop,RE1-SS,RE1,catalogue,loss,network packet loss,5,60,12.0,360,361,False,False,False
+re1ss_catalogue_mem_1,Sock Shop,RE1-SS,RE1,catalogue,mem,memory stress,1,60,12.0,360,361,False,False,False
+re1ss_catalogue_mem_2,Sock Shop,RE1-SS,RE1,catalogue,mem,memory stress,2,60,12.0,360,361,False,False,False
+re1ss_catalogue_mem_3,Sock Shop,RE1-SS,RE1,catalogue,mem,memory stress,3,60,12.0,360,361,False,False,False
+re1ss_catalogue_mem_4,Sock Shop,RE1-SS,RE1,catalogue,mem,memory stress,4,59,12.0,360,361,False,False,False
+re1ss_catalogue_mem_5,Sock Shop,RE1-SS,RE1,catalogue,mem,memory stress,5,59,12.0,360,361,False,False,False
+re1ss_orders_cpu_1,Sock Shop,RE1-SS,RE1,orders,cpu,CPU stress,1,59,12.0,360,361,False,False,False
+re1ss_orders_cpu_2,Sock Shop,RE1-SS,RE1,orders,cpu,CPU stress,2,58,12.0,360,361,False,False,False
+re1ss_orders_cpu_3,Sock Shop,RE1-SS,RE1,orders,cpu,CPU stress,3,58,12.0,360,361,False,False,False
+re1ss_orders_cpu_4,Sock Shop,RE1-SS,RE1,orders,cpu,CPU stress,4,60,12.0,360,361,False,False,False
+re1ss_orders_cpu_5,Sock Shop,RE1-SS,RE1,orders,cpu,CPU stress,5,60,12.0,360,361,False,False,False
+re1ss_orders_delay_1,Sock Shop,RE1-SS,RE1,orders,delay,network delay,1,59,12.0,360,361,False,False,False
+re1ss_orders_delay_2,Sock Shop,RE1-SS,RE1,orders,delay,network delay,2,59,12.0,360,361,False,False,False
+re1ss_orders_delay_3,Sock Shop,RE1-SS,RE1,orders,delay,network delay,3,59,12.0,360,361,False,False,False
+re1ss_orders_delay_4,Sock Shop,RE1-SS,RE1,orders,delay,network delay,4,59,12.0,360,361,False,False,False
+re1ss_orders_delay_5,Sock Shop,RE1-SS,RE1,orders,delay,network delay,5,59,12.0,360,361,False,False,False
+re1ss_orders_disk_1,Sock Shop,RE1-SS,RE1,orders,disk,disk I/O stress,1,57,12.0,360,361,False,False,False
+re1ss_orders_disk_2,Sock Shop,RE1-SS,RE1,orders,disk,disk I/O stress,2,60,12.0,360,361,False,False,False
+re1ss_orders_disk_3,Sock Shop,RE1-SS,RE1,orders,disk,disk I/O stress,3,60,12.0,360,361,False,False,False
+re1ss_orders_disk_4,Sock Shop,RE1-SS,RE1,orders,disk,disk I/O stress,4,60,12.0,360,361,False,False,False
+re1ss_orders_disk_5,Sock Shop,RE1-SS,RE1,orders,disk,disk I/O stress,5,60,12.0,360,361,False,False,False
+re1ss_orders_loss_1,Sock Shop,RE1-SS,RE1,orders,loss,network packet loss,1,60,12.0,360,361,False,False,False
+re1ss_orders_loss_2,Sock Shop,RE1-SS,RE1,orders,loss,network packet loss,2,60,12.0,360,361,False,False,False
+re1ss_orders_loss_3,Sock Shop,RE1-SS,RE1,orders,loss,network packet loss,3,59,12.0,360,361,False,False,False
+re1ss_orders_loss_4,Sock Shop,RE1-SS,RE1,orders,loss,network packet loss,4,59,12.0,360,361,False,False,False
+re1ss_orders_loss_5,Sock Shop,RE1-SS,RE1,orders,loss,network packet loss,5,59,12.0,360,361,False,False,False
+re1ss_orders_mem_1,Sock Shop,RE1-SS,RE1,orders,mem,memory stress,1,59,12.0,360,361,False,False,False
+re1ss_orders_mem_2,Sock Shop,RE1-SS,RE1,orders,mem,memory stress,2,59,12.0,360,361,False,False,False
+re1ss_orders_mem_3,Sock Shop,RE1-SS,RE1,orders,mem,memory stress,3,58,12.0,360,361,False,False,False
+re1ss_orders_mem_4,Sock Shop,RE1-SS,RE1,orders,mem,memory stress,4,59,12.0,360,361,False,False,False
+re1ss_orders_mem_5,Sock Shop,RE1-SS,RE1,orders,mem,memory stress,5,59,12.0,360,361,False,False,False
+re1ss_payment_cpu_1,Sock Shop,RE1-SS,RE1,payment,cpu,CPU stress,1,59,12.0,360,361,False,False,False
+re1ss_payment_cpu_2,Sock Shop,RE1-SS,RE1,payment,cpu,CPU stress,2,58,12.0,360,361,False,False,False
+re1ss_payment_cpu_3,Sock Shop,RE1-SS,RE1,payment,cpu,CPU stress,3,58,12.0,360,361,False,False,False
+re1ss_payment_cpu_4,Sock Shop,RE1-SS,RE1,payment,cpu,CPU stress,4,58,12.0,360,361,False,False,False
+re1ss_payment_cpu_5,Sock Shop,RE1-SS,RE1,payment,cpu,CPU stress,5,58,12.0,360,361,False,False,False
+re1ss_payment_delay_1,Sock Shop,RE1-SS,RE1,payment,delay,network delay,1,59,12.0,360,361,False,False,False
+re1ss_payment_delay_2,Sock Shop,RE1-SS,RE1,payment,delay,network delay,2,58,12.0,360,361,False,False,False
+re1ss_payment_delay_3,Sock Shop,RE1-SS,RE1,payment,delay,network delay,3,58,12.0,360,361,False,False,False
+re1ss_payment_delay_4,Sock Shop,RE1-SS,RE1,payment,delay,network delay,4,59,12.0,360,361,False,False,False
+re1ss_payment_delay_5,Sock Shop,RE1-SS,RE1,payment,delay,network delay,5,59,12.0,360,361,False,False,False
+re1ss_payment_disk_1,Sock Shop,RE1-SS,RE1,payment,disk,disk I/O stress,1,57,12.0,360,361,False,False,False
+re1ss_payment_disk_2,Sock Shop,RE1-SS,RE1,payment,disk,disk I/O stress,2,60,12.0,360,361,False,False,False
+re1ss_payment_disk_3,Sock Shop,RE1-SS,RE1,payment,disk,disk I/O stress,3,60,12.0,360,361,False,False,False
+re1ss_payment_disk_4,Sock Shop,RE1-SS,RE1,payment,disk,disk I/O stress,4,60,12.0,360,361,False,False,False
+re1ss_payment_disk_5,Sock Shop,RE1-SS,RE1,payment,disk,disk I/O stress,5,60,12.0,360,361,False,False,False
+re1ss_payment_loss_1,Sock Shop,RE1-SS,RE1,payment,loss,network packet loss,1,58,12.0,360,361,False,False,False
+re1ss_payment_loss_2,Sock Shop,RE1-SS,RE1,payment,loss,network packet loss,2,58,12.0,360,361,False,False,False
+re1ss_payment_loss_3,Sock Shop,RE1-SS,RE1,payment,loss,network packet loss,3,58,12.0,360,361,False,False,False
+re1ss_payment_loss_4,Sock Shop,RE1-SS,RE1,payment,loss,network packet loss,4,58,12.0,360,361,False,False,False
+re1ss_payment_loss_5,Sock Shop,RE1-SS,RE1,payment,loss,network packet loss,5,58,12.0,360,361,False,False,False
+re1ss_payment_mem_1,Sock Shop,RE1-SS,RE1,payment,mem,memory stress,1,60,12.0,360,361,False,False,False
+re1ss_payment_mem_2,Sock Shop,RE1-SS,RE1,payment,mem,memory stress,2,59,12.0,360,361,False,False,False
+re1ss_payment_mem_3,Sock Shop,RE1-SS,RE1,payment,mem,memory stress,3,60,12.0,360,361,False,False,False
+re1ss_payment_mem_4,Sock Shop,RE1-SS,RE1,payment,mem,memory stress,4,59,12.0,360,361,False,False,False
+re1ss_payment_mem_5,Sock Shop,RE1-SS,RE1,payment,mem,memory stress,5,59,12.0,360,361,False,False,False
+re1ss_user_cpu_1,Sock Shop,RE1-SS,RE1,user,cpu,CPU stress,1,59,12.0,360,361,False,False,False
+re1ss_user_cpu_2,Sock Shop,RE1-SS,RE1,user,cpu,CPU stress,2,59,12.0,360,361,False,False,False
+re1ss_user_cpu_3,Sock Shop,RE1-SS,RE1,user,cpu,CPU stress,3,59,12.0,360,361,False,False,False
+re1ss_user_cpu_4,Sock Shop,RE1-SS,RE1,user,cpu,CPU stress,4,59,12.0,360,361,False,False,False
+re1ss_user_cpu_5,Sock Shop,RE1-SS,RE1,user,cpu,CPU stress,5,60,12.0,360,361,False,False,False
+re1ss_user_delay_1,Sock Shop,RE1-SS,RE1,user,delay,network delay,1,59,12.0,360,361,False,False,False
+re1ss_user_delay_2,Sock Shop,RE1-SS,RE1,user,delay,network delay,2,58,12.0,360,361,False,False,False
+re1ss_user_delay_3,Sock Shop,RE1-SS,RE1,user,delay,network delay,3,58,12.0,360,361,False,False,False
+re1ss_user_delay_4,Sock Shop,RE1-SS,RE1,user,delay,network delay,4,59,12.0,360,361,False,False,False
+re1ss_user_delay_5,Sock Shop,RE1-SS,RE1,user,delay,network delay,5,59,12.0,360,361,False,False,False
+re1ss_user_disk_1,Sock Shop,RE1-SS,RE1,user,disk,disk I/O stress,1,60,12.0,360,361,False,False,False
+re1ss_user_disk_2,Sock Shop,RE1-SS,RE1,user,disk,disk I/O stress,2,60,12.0,360,361,False,False,False
+re1ss_user_disk_3,Sock Shop,RE1-SS,RE1,user,disk,disk I/O stress,3,60,12.0,360,361,False,False,False
+re1ss_user_disk_4,Sock Shop,RE1-SS,RE1,user,disk,disk I/O stress,4,60,12.0,360,361,False,False,False
+re1ss_user_disk_5,Sock Shop,RE1-SS,RE1,user,disk,disk I/O stress,5,60,12.0,360,361,False,False,False
+re1ss_user_loss_1,Sock Shop,RE1-SS,RE1,user,loss,network packet loss,1,60,12.0,360,361,False,False,False
+re1ss_user_loss_2,Sock Shop,RE1-SS,RE1,user,loss,network packet loss,2,58,12.0,360,361,False,False,False
+re1ss_user_loss_3,Sock Shop,RE1-SS,RE1,user,loss,network packet loss,3,59,12.0,360,361,False,False,False
+re1ss_user_loss_4,Sock Shop,RE1-SS,RE1,user,loss,network packet loss,4,60,12.0,360,361,False,False,False
+re1ss_user_loss_5,Sock Shop,RE1-SS,RE1,user,loss,network packet loss,5,60,12.0,360,361,False,False,False
+re1ss_user_mem_1,Sock Shop,RE1-SS,RE1,user,mem,memory stress,1,60,10.1,360,247,False,False,False
+re1ss_user_mem_2,Sock Shop,RE1-SS,RE1,user,mem,memory stress,2,60,12.0,360,361,False,False,False
+re1ss_user_mem_3,Sock Shop,RE1-SS,RE1,user,mem,memory stress,3,59,12.0,360,361,False,False,False
+re1ss_user_mem_4,Sock Shop,RE1-SS,RE1,user,mem,memory stress,4,59,12.0,360,361,False,False,False
+re1ss_user_mem_5,Sock Shop,RE1-SS,RE1,user,mem,memory stress,5,60,12.0,360,361,False,False,False
+re1tt_ts-auth-service_cpu_1,Train Ticket,RE1-TT,RE1,ts-auth-service,cpu,CPU stress,1,220,16.0,480,481,False,False,False
+re1tt_ts-auth-service_cpu_2,Train Ticket,RE1-TT,RE1,ts-auth-service,cpu,CPU stress,2,218,16.0,480,481,False,False,False
+re1tt_ts-auth-service_cpu_3,Train Ticket,RE1-TT,RE1,ts-auth-service,cpu,CPU stress,3,217,16.0,480,481,False,False,False
+re1tt_ts-auth-service_cpu_4,Train Ticket,RE1-TT,RE1,ts-auth-service,cpu,CPU stress,4,200,16.0,480,481,False,False,False
+re1tt_ts-auth-service_cpu_5,Train Ticket,RE1-TT,RE1,ts-auth-service,cpu,CPU stress,5,199,16.0,480,481,False,False,False
+re1tt_ts-auth-service_delay_1,Train Ticket,RE1-TT,RE1,ts-auth-service,delay,network delay,1,220,16.0,480,481,False,False,False
+re1tt_ts-auth-service_delay_2,Train Ticket,RE1-TT,RE1,ts-auth-service,delay,network delay,2,218,16.0,480,481,False,False,False
+re1tt_ts-auth-service_delay_3,Train Ticket,RE1-TT,RE1,ts-auth-service,delay,network delay,3,217,16.0,480,481,False,False,False
+re1tt_ts-auth-service_delay_4,Train Ticket,RE1-TT,RE1,ts-auth-service,delay,network delay,4,201,16.0,480,481,False,False,False
+re1tt_ts-auth-service_delay_5,Train Ticket,RE1-TT,RE1,ts-auth-service,delay,network delay,5,199,16.0,480,481,False,False,False
+re1tt_ts-auth-service_disk_1,Train Ticket,RE1-TT,RE1,ts-auth-service,disk,disk I/O stress,1,228,12.0,360,361,False,False,False
+re1tt_ts-auth-service_disk_2,Train Ticket,RE1-TT,RE1,ts-auth-service,disk,disk I/O stress,2,228,12.0,360,361,False,False,False
+re1tt_ts-auth-service_disk_3,Train Ticket,RE1-TT,RE1,ts-auth-service,disk,disk I/O stress,3,228,12.0,360,361,False,False,False
+re1tt_ts-auth-service_disk_4,Train Ticket,RE1-TT,RE1,ts-auth-service,disk,disk I/O stress,4,228,12.0,360,361,False,False,False
+re1tt_ts-auth-service_disk_5,Train Ticket,RE1-TT,RE1,ts-auth-service,disk,disk I/O stress,5,231,12.0,360,361,False,False,False
+re1tt_ts-auth-service_loss_1,Train Ticket,RE1-TT,RE1,ts-auth-service,loss,network packet loss,1,225,16.0,480,481,False,False,False
+re1tt_ts-auth-service_loss_2,Train Ticket,RE1-TT,RE1,ts-auth-service,loss,network packet loss,2,216,16.0,480,481,False,False,False
+re1tt_ts-auth-service_loss_3,Train Ticket,RE1-TT,RE1,ts-auth-service,loss,network packet loss,3,215,16.0,480,481,False,False,False
+re1tt_ts-auth-service_loss_4,Train Ticket,RE1-TT,RE1,ts-auth-service,loss,network packet loss,4,201,16.0,480,481,False,False,False
+re1tt_ts-auth-service_loss_5,Train Ticket,RE1-TT,RE1,ts-auth-service,loss,network packet loss,5,200,16.0,480,481,False,False,False
+re1tt_ts-auth-service_mem_1,Train Ticket,RE1-TT,RE1,ts-auth-service,mem,memory stress,1,222,16.0,480,481,False,False,False
+re1tt_ts-auth-service_mem_2,Train Ticket,RE1-TT,RE1,ts-auth-service,mem,memory stress,2,199,16.0,480,481,False,False,False
+re1tt_ts-auth-service_mem_3,Train Ticket,RE1-TT,RE1,ts-auth-service,mem,memory stress,3,218,16.0,480,481,False,False,False
+re1tt_ts-auth-service_mem_4,Train Ticket,RE1-TT,RE1,ts-auth-service,mem,memory stress,4,199,16.0,480,481,False,False,False
+re1tt_ts-auth-service_mem_5,Train Ticket,RE1-TT,RE1,ts-auth-service,mem,memory stress,5,198,16.0,480,481,False,False,False
+re1tt_ts-order-service_cpu_1,Train Ticket,RE1-TT,RE1,ts-order-service,cpu,CPU stress,1,219,16.0,480,481,False,False,False
+re1tt_ts-order-service_cpu_2,Train Ticket,RE1-TT,RE1,ts-order-service,cpu,CPU stress,2,215,16.0,480,481,False,False,False
+re1tt_ts-order-service_cpu_3,Train Ticket,RE1-TT,RE1,ts-order-service,cpu,CPU stress,3,201,16.0,480,481,False,False,False
+re1tt_ts-order-service_cpu_4,Train Ticket,RE1-TT,RE1,ts-order-service,cpu,CPU stress,4,200,16.0,480,481,False,False,False
+re1tt_ts-order-service_cpu_5,Train Ticket,RE1-TT,RE1,ts-order-service,cpu,CPU stress,5,201,16.0,480,481,False,False,False
+re1tt_ts-order-service_delay_1,Train Ticket,RE1-TT,RE1,ts-order-service,delay,network delay,1,219,16.0,480,481,False,False,False
+re1tt_ts-order-service_delay_2,Train Ticket,RE1-TT,RE1,ts-order-service,delay,network delay,2,215,16.0,480,481,False,False,False
+re1tt_ts-order-service_delay_3,Train Ticket,RE1-TT,RE1,ts-order-service,delay,network delay,3,201,16.0,480,481,False,False,False
+re1tt_ts-order-service_delay_4,Train Ticket,RE1-TT,RE1,ts-order-service,delay,network delay,4,200,16.0,480,481,False,False,False
+re1tt_ts-order-service_delay_5,Train Ticket,RE1-TT,RE1,ts-order-service,delay,network delay,5,201,16.0,480,481,False,False,False
+re1tt_ts-order-service_disk_1,Train Ticket,RE1-TT,RE1,ts-order-service,disk,disk I/O stress,1,232,12.0,360,361,False,False,False
+re1tt_ts-order-service_disk_2,Train Ticket,RE1-TT,RE1,ts-order-service,disk,disk I/O stress,2,233,12.0,360,361,False,False,False
+re1tt_ts-order-service_disk_3,Train Ticket,RE1-TT,RE1,ts-order-service,disk,disk I/O stress,3,236,12.0,360,361,False,False,False
+re1tt_ts-order-service_disk_4,Train Ticket,RE1-TT,RE1,ts-order-service,disk,disk I/O stress,4,236,12.0,360,361,False,False,False
+re1tt_ts-order-service_disk_5,Train Ticket,RE1-TT,RE1,ts-order-service,disk,disk I/O stress,5,236,12.0,360,361,False,False,False
+re1tt_ts-order-service_loss_1,Train Ticket,RE1-TT,RE1,ts-order-service,loss,network packet loss,1,223,16.0,480,481,False,False,False
+re1tt_ts-order-service_loss_2,Train Ticket,RE1-TT,RE1,ts-order-service,loss,network packet loss,2,217,16.0,480,481,False,False,False
+re1tt_ts-order-service_loss_3,Train Ticket,RE1-TT,RE1,ts-order-service,loss,network packet loss,3,200,16.0,480,481,False,False,False
+re1tt_ts-order-service_loss_4,Train Ticket,RE1-TT,RE1,ts-order-service,loss,network packet loss,4,199,16.0,480,481,False,False,False
+re1tt_ts-order-service_loss_5,Train Ticket,RE1-TT,RE1,ts-order-service,loss,network packet loss,5,200,16.0,480,481,False,False,False
+re1tt_ts-order-service_mem_1,Train Ticket,RE1-TT,RE1,ts-order-service,mem,memory stress,1,199,16.0,480,481,False,False,False
+re1tt_ts-order-service_mem_2,Train Ticket,RE1-TT,RE1,ts-order-service,mem,memory stress,2,199,16.0,480,481,False,False,False
+re1tt_ts-order-service_mem_3,Train Ticket,RE1-TT,RE1,ts-order-service,mem,memory stress,3,200,14.1,480,368,False,False,False
+re1tt_ts-order-service_mem_4,Train Ticket,RE1-TT,RE1,ts-order-service,mem,memory stress,4,198,16.0,480,481,False,False,False
+re1tt_ts-order-service_mem_5,Train Ticket,RE1-TT,RE1,ts-order-service,mem,memory stress,5,199,16.0,480,481,False,False,False
+re1tt_ts-route-service_cpu_1,Train Ticket,RE1-TT,RE1,ts-route-service,cpu,CPU stress,1,220,16.0,480,481,False,False,False
+re1tt_ts-route-service_cpu_2,Train Ticket,RE1-TT,RE1,ts-route-service,cpu,CPU stress,2,216,16.0,480,481,False,False,False
+re1tt_ts-route-service_cpu_3,Train Ticket,RE1-TT,RE1,ts-route-service,cpu,CPU stress,3,215,16.0,480,481,False,False,False
+re1tt_ts-route-service_cpu_4,Train Ticket,RE1-TT,RE1,ts-route-service,cpu,CPU stress,4,201,16.0,480,481,False,False,False
+re1tt_ts-route-service_cpu_5,Train Ticket,RE1-TT,RE1,ts-route-service,cpu,CPU stress,5,200,16.0,480,481,False,False,False
+re1tt_ts-route-service_delay_1,Train Ticket,RE1-TT,RE1,ts-route-service,delay,network delay,1,220,16.0,480,481,False,False,False
+re1tt_ts-route-service_delay_2,Train Ticket,RE1-TT,RE1,ts-route-service,delay,network delay,2,216,16.0,480,481,False,False,False
+re1tt_ts-route-service_delay_3,Train Ticket,RE1-TT,RE1,ts-route-service,delay,network delay,3,215,16.0,480,481,False,False,False
+re1tt_ts-route-service_delay_4,Train Ticket,RE1-TT,RE1,ts-route-service,delay,network delay,4,204,16.0,480,481,False,False,False
+re1tt_ts-route-service_delay_5,Train Ticket,RE1-TT,RE1,ts-route-service,delay,network delay,5,202,16.0,480,481,False,False,False
+re1tt_ts-route-service_disk_1,Train Ticket,RE1-TT,RE1,ts-route-service,disk,disk I/O stress,1,221,12.0,360,361,False,False,False
+re1tt_ts-route-service_disk_2,Train Ticket,RE1-TT,RE1,ts-route-service,disk,disk I/O stress,2,238,12.0,360,361,False,False,False
+re1tt_ts-route-service_disk_3,Train Ticket,RE1-TT,RE1,ts-route-service,disk,disk I/O stress,3,238,12.0,360,361,False,False,False
+re1tt_ts-route-service_disk_4,Train Ticket,RE1-TT,RE1,ts-route-service,disk,disk I/O stress,4,238,12.0,360,361,False,False,False
+re1tt_ts-route-service_disk_5,Train Ticket,RE1-TT,RE1,ts-route-service,disk,disk I/O stress,5,238,12.0,360,361,False,False,False
+re1tt_ts-route-service_loss_1,Train Ticket,RE1-TT,RE1,ts-route-service,loss,network packet loss,1,200,16.0,480,481,False,False,False
+re1tt_ts-route-service_loss_2,Train Ticket,RE1-TT,RE1,ts-route-service,loss,network packet loss,2,221,16.0,480,481,False,False,False
+re1tt_ts-route-service_loss_3,Train Ticket,RE1-TT,RE1,ts-route-service,loss,network packet loss,3,218,16.0,480,481,False,False,False
+re1tt_ts-route-service_loss_4,Train Ticket,RE1-TT,RE1,ts-route-service,loss,network packet loss,4,202,16.0,480,481,False,False,False
+re1tt_ts-route-service_loss_5,Train Ticket,RE1-TT,RE1,ts-route-service,loss,network packet loss,5,203,16.0,480,481,False,False,False
+re1tt_ts-route-service_mem_1,Train Ticket,RE1-TT,RE1,ts-route-service,mem,memory stress,1,200,16.0,480,481,False,False,False
+re1tt_ts-route-service_mem_2,Train Ticket,RE1-TT,RE1,ts-route-service,mem,memory stress,2,198,16.0,480,481,False,False,False
+re1tt_ts-route-service_mem_3,Train Ticket,RE1-TT,RE1,ts-route-service,mem,memory stress,3,199,16.0,480,481,False,False,False
+re1tt_ts-route-service_mem_4,Train Ticket,RE1-TT,RE1,ts-route-service,mem,memory stress,4,198,16.0,480,481,False,False,False
+re1tt_ts-route-service_mem_5,Train Ticket,RE1-TT,RE1,ts-route-service,mem,memory stress,5,199,16.0,480,481,False,False,False
+re1tt_ts-train-service_cpu_1,Train Ticket,RE1-TT,RE1,ts-train-service,cpu,CPU stress,1,222,16.0,480,481,False,False,False
+re1tt_ts-train-service_cpu_2,Train Ticket,RE1-TT,RE1,ts-train-service,cpu,CPU stress,2,221,16.0,480,481,False,False,False
+re1tt_ts-train-service_cpu_3,Train Ticket,RE1-TT,RE1,ts-train-service,cpu,CPU stress,3,218,16.0,480,481,False,False,False
+re1tt_ts-train-service_cpu_4,Train Ticket,RE1-TT,RE1,ts-train-service,cpu,CPU stress,4,202,16.0,480,481,False,False,False
+re1tt_ts-train-service_cpu_5,Train Ticket,RE1-TT,RE1,ts-train-service,cpu,CPU stress,5,203,16.0,480,481,False,False,False
+re1tt_ts-train-service_delay_1,Train Ticket,RE1-TT,RE1,ts-train-service,delay,network delay,1,222,16.0,480,481,False,False,False
+re1tt_ts-train-service_delay_2,Train Ticket,RE1-TT,RE1,ts-train-service,delay,network delay,2,221,16.0,480,481,False,False,False
+re1tt_ts-train-service_delay_3,Train Ticket,RE1-TT,RE1,ts-train-service,delay,network delay,3,220,16.0,480,481,False,False,False
+re1tt_ts-train-service_delay_4,Train Ticket,RE1-TT,RE1,ts-train-service,delay,network delay,4,204,16.0,480,481,False,False,False
+re1tt_ts-train-service_delay_5,Train Ticket,RE1-TT,RE1,ts-train-service,delay,network delay,5,204,16.0,480,481,False,False,False
+re1tt_ts-train-service_disk_1,Train Ticket,RE1-TT,RE1,ts-train-service,disk,disk I/O stress,1,224,12.0,360,361,False,False,False
+re1tt_ts-train-service_disk_2,Train Ticket,RE1-TT,RE1,ts-train-service,disk,disk I/O stress,2,238,12.0,360,361,False,False,False
+re1tt_ts-train-service_disk_3,Train Ticket,RE1-TT,RE1,ts-train-service,disk,disk I/O stress,3,238,12.0,360,361,False,False,False
+re1tt_ts-train-service_disk_4,Train Ticket,RE1-TT,RE1,ts-train-service,disk,disk I/O stress,4,238,12.0,360,361,False,False,False
+re1tt_ts-train-service_disk_5,Train Ticket,RE1-TT,RE1,ts-train-service,disk,disk I/O stress,5,238,12.0,360,361,False,False,False
+re1tt_ts-train-service_loss_1,Train Ticket,RE1-TT,RE1,ts-train-service,loss,network packet loss,1,202,16.0,480,481,False,False,False
+re1tt_ts-train-service_loss_2,Train Ticket,RE1-TT,RE1,ts-train-service,loss,network packet loss,2,221,16.0,480,481,False,False,False
+re1tt_ts-train-service_loss_3,Train Ticket,RE1-TT,RE1,ts-train-service,loss,network packet loss,3,218,16.0,480,481,False,False,False
+re1tt_ts-train-service_loss_4,Train Ticket,RE1-TT,RE1,ts-train-service,loss,network packet loss,4,198,16.0,480,481,False,False,False
+re1tt_ts-train-service_loss_5,Train Ticket,RE1-TT,RE1,ts-train-service,loss,network packet loss,5,198,16.0,480,481,False,False,False
+re1tt_ts-train-service_mem_1,Train Ticket,RE1-TT,RE1,ts-train-service,mem,memory stress,1,220,16.0,480,481,False,False,False
+re1tt_ts-train-service_mem_2,Train Ticket,RE1-TT,RE1,ts-train-service,mem,memory stress,2,226,16.0,480,481,False,False,False
+re1tt_ts-train-service_mem_3,Train Ticket,RE1-TT,RE1,ts-train-service,mem,memory stress,3,218,16.0,480,481,False,False,False
+re1tt_ts-train-service_mem_4,Train Ticket,RE1-TT,RE1,ts-train-service,mem,memory stress,4,198,16.0,480,481,False,False,False
+re1tt_ts-train-service_mem_5,Train Ticket,RE1-TT,RE1,ts-train-service,mem,memory stress,5,198,16.0,480,481,False,False,False
+re1tt_ts-travel-service_cpu_1,Train Ticket,RE1-TT,RE1,ts-travel-service,cpu,CPU stress,1,221,16.0,480,481,False,False,False
+re1tt_ts-travel-service_cpu_2,Train Ticket,RE1-TT,RE1,ts-travel-service,cpu,CPU stress,2,221,16.0,480,481,False,False,False
+re1tt_ts-travel-service_cpu_3,Train Ticket,RE1-TT,RE1,ts-travel-service,cpu,CPU stress,3,218,16.0,480,481,False,False,False
+re1tt_ts-travel-service_cpu_4,Train Ticket,RE1-TT,RE1,ts-travel-service,cpu,CPU stress,4,198,16.0,480,481,False,False,False
+re1tt_ts-travel-service_cpu_5,Train Ticket,RE1-TT,RE1,ts-travel-service,cpu,CPU stress,5,198,16.0,480,481,False,False,False
+re1tt_ts-travel-service_delay_1,Train Ticket,RE1-TT,RE1,ts-travel-service,delay,network delay,1,220,16.0,480,481,False,False,False
+re1tt_ts-travel-service_delay_2,Train Ticket,RE1-TT,RE1,ts-travel-service,delay,network delay,2,198,16.0,480,481,False,False,False
+re1tt_ts-travel-service_delay_3,Train Ticket,RE1-TT,RE1,ts-travel-service,delay,network delay,3,220,16.0,480,481,False,False,False
+re1tt_ts-travel-service_delay_4,Train Ticket,RE1-TT,RE1,ts-travel-service,delay,network delay,4,200,16.0,480,481,False,False,False
+re1tt_ts-travel-service_delay_5,Train Ticket,RE1-TT,RE1,ts-travel-service,delay,network delay,5,200,16.0,480,481,False,False,False
+re1tt_ts-travel-service_disk_1,Train Ticket,RE1-TT,RE1,ts-travel-service,disk,disk I/O stress,1,226,12.0,360,361,False,False,False
+re1tt_ts-travel-service_disk_2,Train Ticket,RE1-TT,RE1,ts-travel-service,disk,disk I/O stress,2,238,12.0,360,361,False,False,False
+re1tt_ts-travel-service_disk_3,Train Ticket,RE1-TT,RE1,ts-travel-service,disk,disk I/O stress,3,238,12.0,360,361,False,False,False
+re1tt_ts-travel-service_disk_4,Train Ticket,RE1-TT,RE1,ts-travel-service,disk,disk I/O stress,4,238,12.0,360,361,False,False,False
+re1tt_ts-travel-service_disk_5,Train Ticket,RE1-TT,RE1,ts-travel-service,disk,disk I/O stress,5,238,12.0,360,361,False,False,False
+re1tt_ts-travel-service_loss_1,Train Ticket,RE1-TT,RE1,ts-travel-service,loss,network packet loss,1,227,16.0,480,481,False,False,False
+re1tt_ts-travel-service_loss_2,Train Ticket,RE1-TT,RE1,ts-travel-service,loss,network packet loss,2,198,16.0,480,481,False,False,False
+re1tt_ts-travel-service_loss_3,Train Ticket,RE1-TT,RE1,ts-travel-service,loss,network packet loss,3,201,16.0,480,481,False,False,False
+re1tt_ts-travel-service_loss_4,Train Ticket,RE1-TT,RE1,ts-travel-service,loss,network packet loss,4,200,16.0,480,481,False,False,False
+re1tt_ts-travel-service_loss_5,Train Ticket,RE1-TT,RE1,ts-travel-service,loss,network packet loss,5,201,16.0,480,481,False,False,False
+re1tt_ts-travel-service_mem_1,Train Ticket,RE1-TT,RE1,ts-travel-service,mem,memory stress,1,223,16.0,480,481,False,False,False
+re1tt_ts-travel-service_mem_2,Train Ticket,RE1-TT,RE1,ts-travel-service,mem,memory stress,2,198,16.0,480,481,False,False,False
+re1tt_ts-travel-service_mem_3,Train Ticket,RE1-TT,RE1,ts-travel-service,mem,memory stress,3,199,16.0,480,481,False,False,False
+re1tt_ts-travel-service_mem_4,Train Ticket,RE1-TT,RE1,ts-travel-service,mem,memory stress,4,198,16.0,480,481,False,False,False
+re1tt_ts-travel-service_mem_5,Train Ticket,RE1-TT,RE1,ts-travel-service,mem,memory stress,5,223,16.0,480,481,False,False,False
+re2ob_checkoutservice_cpu_1,Online Boutique,RE2-OB,RE2,checkoutservice,cpu,CPU stress,1,72,24.0,720,721,True,True,False
+re2ob_checkoutservice_cpu_2,Online Boutique,RE2-OB,RE2,checkoutservice,cpu,CPU stress,2,74,15.5,720,210,True,True,False
+re2ob_checkoutservice_cpu_3,Online Boutique,RE2-OB,RE2,checkoutservice,cpu,CPU stress,3,74,24.0,720,721,True,True,False
+re2ob_checkoutservice_delay_1,Online Boutique,RE2-OB,RE2,checkoutservice,delay,network delay,1,75,24.0,720,721,True,True,False
+re2ob_checkoutservice_delay_2,Online Boutique,RE2-OB,RE2,checkoutservice,delay,network delay,2,75,24.0,720,721,True,True,False
+re2ob_checkoutservice_delay_3,Online Boutique,RE2-OB,RE2,checkoutservice,delay,network delay,3,75,24.0,720,721,True,True,False
+re2ob_checkoutservice_disk_1,Online Boutique,RE2-OB,RE2,checkoutservice,disk,disk I/O stress,1,74,24.0,720,721,True,True,False
+re2ob_checkoutservice_disk_2,Online Boutique,RE2-OB,RE2,checkoutservice,disk,disk I/O stress,2,69,24.0,720,721,True,True,False
+re2ob_checkoutservice_disk_3,Online Boutique,RE2-OB,RE2,checkoutservice,disk,disk I/O stress,3,70,24.0,720,721,True,True,False
+re2ob_checkoutservice_loss_1,Online Boutique,RE2-OB,RE2,checkoutservice,loss,network packet loss,1,74,24.0,720,721,True,True,False
+re2ob_checkoutservice_loss_2,Online Boutique,RE2-OB,RE2,checkoutservice,loss,network packet loss,2,75,24.0,720,721,True,True,False
+re2ob_checkoutservice_loss_3,Online Boutique,RE2-OB,RE2,checkoutservice,loss,network packet loss,3,73,24.0,720,721,True,True,False
+re2ob_checkoutservice_mem_1,Online Boutique,RE2-OB,RE2,checkoutservice,mem,memory stress,1,70,24.0,720,721,True,True,False
+re2ob_checkoutservice_mem_2,Online Boutique,RE2-OB,RE2,checkoutservice,mem,memory stress,2,75,16.7,720,284,True,True,False
+re2ob_checkoutservice_mem_3,Online Boutique,RE2-OB,RE2,checkoutservice,mem,memory stress,3,75,24.0,720,721,True,True,False
+re2ob_checkoutservice_socket_1,Online Boutique,RE2-OB,RE2,checkoutservice,socket,socket exhaustion,1,77,24.0,720,721,True,True,False
+re2ob_checkoutservice_socket_2,Online Boutique,RE2-OB,RE2,checkoutservice,socket,socket exhaustion,2,75,24.0,720,721,True,True,False
+re2ob_checkoutservice_socket_3,Online Boutique,RE2-OB,RE2,checkoutservice,socket,socket exhaustion,3,75,24.0,720,721,True,True,False
+re2ob_currencyservice_cpu_1,Online Boutique,RE2-OB,RE2,currencyservice,cpu,CPU stress,1,75,24.0,720,721,True,True,False
+re2ob_currencyservice_cpu_2,Online Boutique,RE2-OB,RE2,currencyservice,cpu,CPU stress,2,75,24.0,720,721,True,True,False
+re2ob_currencyservice_cpu_3,Online Boutique,RE2-OB,RE2,currencyservice,cpu,CPU stress,3,75,24.0,720,721,True,True,False
+re2ob_currencyservice_delay_1,Online Boutique,RE2-OB,RE2,currencyservice,delay,network delay,1,76,24.0,720,721,True,True,False
+re2ob_currencyservice_delay_2,Online Boutique,RE2-OB,RE2,currencyservice,delay,network delay,2,76,24.0,720,721,True,True,False
+re2ob_currencyservice_delay_3,Online Boutique,RE2-OB,RE2,currencyservice,delay,network delay,3,76,24.0,720,721,True,True,False
+re2ob_currencyservice_disk_1,Online Boutique,RE2-OB,RE2,currencyservice,disk,disk I/O stress,1,74,24.0,720,721,True,True,False
+re2ob_currencyservice_disk_2,Online Boutique,RE2-OB,RE2,currencyservice,disk,disk I/O stress,2,76,24.0,720,721,True,True,False
+re2ob_currencyservice_disk_3,Online Boutique,RE2-OB,RE2,currencyservice,disk,disk I/O stress,3,76,24.0,720,721,True,True,False
+re2ob_currencyservice_loss_1,Online Boutique,RE2-OB,RE2,currencyservice,loss,network packet loss,1,74,24.0,720,721,True,True,False
+re2ob_currencyservice_loss_2,Online Boutique,RE2-OB,RE2,currencyservice,loss,network packet loss,2,76,24.0,720,721,True,True,False
+re2ob_currencyservice_loss_3,Online Boutique,RE2-OB,RE2,currencyservice,loss,network packet loss,3,75,24.0,720,721,True,True,False
+re2ob_currencyservice_mem_1,Online Boutique,RE2-OB,RE2,currencyservice,mem,memory stress,1,70,24.0,720,721,True,True,False
+re2ob_currencyservice_mem_2,Online Boutique,RE2-OB,RE2,currencyservice,mem,memory stress,2,75,24.0,720,721,True,True,False
+re2ob_currencyservice_mem_3,Online Boutique,RE2-OB,RE2,currencyservice,mem,memory stress,3,76,24.0,720,721,True,True,False
+re2ob_currencyservice_socket_1,Online Boutique,RE2-OB,RE2,currencyservice,socket,socket exhaustion,1,71,24.0,720,721,True,True,False
+re2ob_currencyservice_socket_2,Online Boutique,RE2-OB,RE2,currencyservice,socket,socket exhaustion,2,76,24.0,720,721,True,True,False
+re2ob_currencyservice_socket_3,Online Boutique,RE2-OB,RE2,currencyservice,socket,socket exhaustion,3,76,24.0,720,721,True,True,False
+re2ob_emailservice_cpu_1,Online Boutique,RE2-OB,RE2,emailservice,cpu,CPU stress,1,72,24.0,720,721,True,True,False
+re2ob_emailservice_cpu_2,Online Boutique,RE2-OB,RE2,emailservice,cpu,CPU stress,2,74,24.0,720,721,True,True,False
+re2ob_emailservice_cpu_3,Online Boutique,RE2-OB,RE2,emailservice,cpu,CPU stress,3,74,24.0,720,721,True,True,False
+re2ob_emailservice_delay_1,Online Boutique,RE2-OB,RE2,emailservice,delay,network delay,1,74,24.0,720,721,True,True,False
+re2ob_emailservice_delay_2,Online Boutique,RE2-OB,RE2,emailservice,delay,network delay,2,74,24.0,720,721,True,True,False
+re2ob_emailservice_delay_3,Online Boutique,RE2-OB,RE2,emailservice,delay,network delay,3,74,24.0,720,721,True,True,False
+re2ob_emailservice_disk_1,Online Boutique,RE2-OB,RE2,emailservice,disk,disk I/O stress,1,73,24.0,720,721,True,True,False
+re2ob_emailservice_disk_2,Online Boutique,RE2-OB,RE2,emailservice,disk,disk I/O stress,2,74,24.0,720,721,True,True,False
+re2ob_emailservice_disk_3,Online Boutique,RE2-OB,RE2,emailservice,disk,disk I/O stress,3,75,24.0,720,721,True,True,False
+re2ob_emailservice_loss_1,Online Boutique,RE2-OB,RE2,emailservice,loss,network packet loss,1,72,24.0,720,721,True,True,False
+re2ob_emailservice_loss_2,Online Boutique,RE2-OB,RE2,emailservice,loss,network packet loss,2,74,24.0,720,721,True,True,False
+re2ob_emailservice_loss_3,Online Boutique,RE2-OB,RE2,emailservice,loss,network packet loss,3,74,24.0,720,721,True,True,False
+re2ob_emailservice_mem_1,Online Boutique,RE2-OB,RE2,emailservice,mem,memory stress,1,71,24.0,720,721,True,True,False
+re2ob_emailservice_mem_2,Online Boutique,RE2-OB,RE2,emailservice,mem,memory stress,2,74,24.0,720,721,True,True,False
+re2ob_emailservice_mem_3,Online Boutique,RE2-OB,RE2,emailservice,mem,memory stress,3,74,24.0,720,721,True,True,False
+re2ob_emailservice_socket_1,Online Boutique,RE2-OB,RE2,emailservice,socket,socket exhaustion,1,74,24.0,720,721,True,True,False
+re2ob_emailservice_socket_2,Online Boutique,RE2-OB,RE2,emailservice,socket,socket exhaustion,2,74,24.0,720,721,True,True,False
+re2ob_emailservice_socket_3,Online Boutique,RE2-OB,RE2,emailservice,socket,socket exhaustion,3,74,24.0,720,721,True,True,False
+re2ob_productcatalogservice_cpu_1,Online Boutique,RE2-OB,RE2,productcatalogservice,cpu,CPU stress,1,71,24.0,720,721,True,True,False
+re2ob_productcatalogservice_cpu_2,Online Boutique,RE2-OB,RE2,productcatalogservice,cpu,CPU stress,2,70,24.0,720,721,True,True,False
+re2ob_productcatalogservice_cpu_3,Online Boutique,RE2-OB,RE2,productcatalogservice,cpu,CPU stress,3,70,24.0,720,721,True,True,False
+re2ob_productcatalogservice_delay_1,Online Boutique,RE2-OB,RE2,productcatalogservice,delay,network delay,1,71,24.0,720,721,True,True,False
+re2ob_productcatalogservice_delay_2,Online Boutique,RE2-OB,RE2,productcatalogservice,delay,network delay,2,72,24.0,720,721,True,True,False
+re2ob_productcatalogservice_delay_3,Online Boutique,RE2-OB,RE2,productcatalogservice,delay,network delay,3,73,24.0,720,721,True,True,False
+re2ob_productcatalogservice_disk_1,Online Boutique,RE2-OB,RE2,productcatalogservice,disk,disk I/O stress,1,73,24.0,720,721,True,True,False
+re2ob_productcatalogservice_disk_2,Online Boutique,RE2-OB,RE2,productcatalogservice,disk,disk I/O stress,2,72,24.0,720,721,True,True,False
+re2ob_productcatalogservice_disk_3,Online Boutique,RE2-OB,RE2,productcatalogservice,disk,disk I/O stress,3,72,24.0,720,721,True,True,False
+re2ob_productcatalogservice_loss_1,Online Boutique,RE2-OB,RE2,productcatalogservice,loss,network packet loss,1,72,24.0,720,721,True,True,False
+re2ob_productcatalogservice_loss_2,Online Boutique,RE2-OB,RE2,productcatalogservice,loss,network packet loss,2,74,24.0,720,721,True,True,False
+re2ob_productcatalogservice_loss_3,Online Boutique,RE2-OB,RE2,productcatalogservice,loss,network packet loss,3,75,24.0,720,721,True,True,False
+re2ob_productcatalogservice_mem_1,Online Boutique,RE2-OB,RE2,productcatalogservice,mem,memory stress,1,72,24.0,720,721,True,True,False
+re2ob_productcatalogservice_mem_2,Online Boutique,RE2-OB,RE2,productcatalogservice,mem,memory stress,2,71,24.0,720,721,True,True,False
+re2ob_productcatalogservice_mem_3,Online Boutique,RE2-OB,RE2,productcatalogservice,mem,memory stress,3,71,24.0,720,721,True,True,False
+re2ob_productcatalogservice_socket_1,Online Boutique,RE2-OB,RE2,productcatalogservice,socket,socket exhaustion,1,71,24.0,720,721,True,True,False
+re2ob_productcatalogservice_socket_2,Online Boutique,RE2-OB,RE2,productcatalogservice,socket,socket exhaustion,2,71,24.0,720,721,True,True,False
+re2ob_productcatalogservice_socket_3,Online Boutique,RE2-OB,RE2,productcatalogservice,socket,socket exhaustion,3,71,24.0,720,721,True,True,False
+re2ob_recommendationservice_cpu_1,Online Boutique,RE2-OB,RE2,recommendationservice,cpu,CPU stress,1,72,24.0,720,721,True,True,False
+re2ob_recommendationservice_cpu_2,Online Boutique,RE2-OB,RE2,recommendationservice,cpu,CPU stress,2,74,24.0,720,721,True,True,False
+re2ob_recommendationservice_cpu_3,Online Boutique,RE2-OB,RE2,recommendationservice,cpu,CPU stress,3,74,24.0,720,721,True,True,False
+re2ob_recommendationservice_delay_1,Online Boutique,RE2-OB,RE2,recommendationservice,delay,network delay,1,71,24.0,720,721,True,True,False
+re2ob_recommendationservice_delay_2,Online Boutique,RE2-OB,RE2,recommendationservice,delay,network delay,2,74,24.0,720,721,True,True,False
+re2ob_recommendationservice_delay_3,Online Boutique,RE2-OB,RE2,recommendationservice,delay,network delay,3,74,24.0,720,721,True,True,False
+re2ob_recommendationservice_disk_1,Online Boutique,RE2-OB,RE2,recommendationservice,disk,disk I/O stress,1,73,24.0,720,721,True,True,False
+re2ob_recommendationservice_disk_2,Online Boutique,RE2-OB,RE2,recommendationservice,disk,disk I/O stress,2,74,24.0,720,721,True,True,False
+re2ob_recommendationservice_disk_3,Online Boutique,RE2-OB,RE2,recommendationservice,disk,disk I/O stress,3,74,24.0,720,721,True,True,False
+re2ob_recommendationservice_loss_1,Online Boutique,RE2-OB,RE2,recommendationservice,loss,network packet loss,1,73,24.0,720,721,True,True,False
+re2ob_recommendationservice_loss_2,Online Boutique,RE2-OB,RE2,recommendationservice,loss,network packet loss,2,72,24.0,720,721,True,True,False
+re2ob_recommendationservice_loss_3,Online Boutique,RE2-OB,RE2,recommendationservice,loss,network packet loss,3,69,24.0,720,721,True,True,False
+re2ob_recommendationservice_mem_1,Online Boutique,RE2-OB,RE2,recommendationservice,mem,memory stress,1,70,24.0,720,721,True,True,False
+re2ob_recommendationservice_mem_2,Online Boutique,RE2-OB,RE2,recommendationservice,mem,memory stress,2,74,24.0,720,721,True,True,False
+re2ob_recommendationservice_mem_3,Online Boutique,RE2-OB,RE2,recommendationservice,mem,memory stress,3,74,24.0,720,721,True,True,False
+re2ob_recommendationservice_socket_1,Online Boutique,RE2-OB,RE2,recommendationservice,socket,socket exhaustion,1,71,24.0,720,721,True,True,False
+re2ob_recommendationservice_socket_2,Online Boutique,RE2-OB,RE2,recommendationservice,socket,socket exhaustion,2,74,24.0,720,721,True,True,False
+re2ob_recommendationservice_socket_3,Online Boutique,RE2-OB,RE2,recommendationservice,socket,socket exhaustion,3,74,24.0,720,721,True,True,False
+re2ss_carts_cpu_1,Sock Shop,RE2-SS,RE2,carts,cpu,CPU stress,1,75,24.0,720,721,True,False,False
+re2ss_carts_cpu_2,Sock Shop,RE2-SS,RE2,carts,cpu,CPU stress,2,78,24.0,720,721,True,False,False
+re2ss_carts_cpu_3,Sock Shop,RE2-SS,RE2,carts,cpu,CPU stress,3,78,24.0,720,721,True,False,False
+re2ss_carts_delay_1,Sock Shop,RE2-SS,RE2,carts,delay,network delay,1,79,24.0,720,721,True,False,False
+re2ss_carts_delay_2,Sock Shop,RE2-SS,RE2,carts,delay,network delay,2,75,24.0,720,721,True,False,False
+re2ss_carts_delay_3,Sock Shop,RE2-SS,RE2,carts,delay,network delay,3,75,24.0,720,721,True,False,False
+re2ss_carts_disk_1,Sock Shop,RE2-SS,RE2,carts,disk,disk I/O stress,1,76,24.0,720,721,True,False,False
+re2ss_carts_disk_2,Sock Shop,RE2-SS,RE2,carts,disk,disk I/O stress,2,74,24.0,720,721,True,False,False
+re2ss_carts_disk_3,Sock Shop,RE2-SS,RE2,carts,disk,disk I/O stress,3,75,24.0,720,721,True,False,False
+re2ss_carts_loss_1,Sock Shop,RE2-SS,RE2,carts,loss,network packet loss,1,79,24.0,720,721,True,False,False
+re2ss_carts_loss_2,Sock Shop,RE2-SS,RE2,carts,loss,network packet loss,2,76,24.0,720,721,True,False,False
+re2ss_carts_loss_3,Sock Shop,RE2-SS,RE2,carts,loss,network packet loss,3,76,24.0,720,721,True,False,False
+re2ss_carts_mem_1,Sock Shop,RE2-SS,RE2,carts,mem,memory stress,1,76,24.0,720,721,True,False,False
+re2ss_carts_mem_2,Sock Shop,RE2-SS,RE2,carts,mem,memory stress,2,78,24.0,720,721,True,False,False
+re2ss_carts_mem_3,Sock Shop,RE2-SS,RE2,carts,mem,memory stress,3,74,24.0,720,721,True,False,False
+re2ss_carts_socket_1,Sock Shop,RE2-SS,RE2,carts,socket,socket exhaustion,1,79,24.0,720,721,True,False,False
+re2ss_carts_socket_2,Sock Shop,RE2-SS,RE2,carts,socket,socket exhaustion,2,75,24.0,720,721,True,False,False
+re2ss_carts_socket_3,Sock Shop,RE2-SS,RE2,carts,socket,socket exhaustion,3,75,24.0,720,721,True,False,False
+re2ss_catalogue_cpu_1,Sock Shop,RE2-SS,RE2,catalogue,cpu,CPU stress,1,75,24.0,720,721,True,False,False
+re2ss_catalogue_cpu_2,Sock Shop,RE2-SS,RE2,catalogue,cpu,CPU stress,2,75,24.0,720,721,True,False,False
+re2ss_catalogue_cpu_3,Sock Shop,RE2-SS,RE2,catalogue,cpu,CPU stress,3,75,24.0,720,721,True,False,False
+re2ss_catalogue_delay_1,Sock Shop,RE2-SS,RE2,catalogue,delay,network delay,1,80,24.0,720,721,True,False,False
+re2ss_catalogue_delay_2,Sock Shop,RE2-SS,RE2,catalogue,delay,network delay,2,75,24.0,720,721,True,False,False
+re2ss_catalogue_delay_3,Sock Shop,RE2-SS,RE2,catalogue,delay,network delay,3,76,24.0,720,721,True,False,False
+re2ss_catalogue_disk_1,Sock Shop,RE2-SS,RE2,catalogue,disk,disk I/O stress,1,80,24.0,720,721,True,False,False
+re2ss_catalogue_disk_2,Sock Shop,RE2-SS,RE2,catalogue,disk,disk I/O stress,2,74,24.0,720,721,True,False,False
+re2ss_catalogue_disk_3,Sock Shop,RE2-SS,RE2,catalogue,disk,disk I/O stress,3,74,24.0,720,721,True,False,False
+re2ss_catalogue_loss_1,Sock Shop,RE2-SS,RE2,catalogue,loss,network packet loss,1,76,24.0,720,721,True,False,False
+re2ss_catalogue_loss_2,Sock Shop,RE2-SS,RE2,catalogue,loss,network packet loss,2,76,24.0,720,721,True,False,False
+re2ss_catalogue_loss_3,Sock Shop,RE2-SS,RE2,catalogue,loss,network packet loss,3,76,24.0,720,721,True,False,False
+re2ss_catalogue_mem_1,Sock Shop,RE2-SS,RE2,catalogue,mem,memory stress,1,77,24.0,720,721,True,False,False
+re2ss_catalogue_mem_2,Sock Shop,RE2-SS,RE2,catalogue,mem,memory stress,2,75,24.0,720,721,True,False,False
+re2ss_catalogue_mem_3,Sock Shop,RE2-SS,RE2,catalogue,mem,memory stress,3,75,24.0,720,721,True,False,False
+re2ss_catalogue_socket_1,Sock Shop,RE2-SS,RE2,catalogue,socket,socket exhaustion,1,80,24.0,720,721,True,False,False
+re2ss_catalogue_socket_2,Sock Shop,RE2-SS,RE2,catalogue,socket,socket exhaustion,2,74,24.0,720,721,True,False,False
+re2ss_catalogue_socket_3,Sock Shop,RE2-SS,RE2,catalogue,socket,socket exhaustion,3,75,24.0,720,721,True,False,False
+re2ss_orders_cpu_1,Sock Shop,RE2-SS,RE2,orders,cpu,CPU stress,1,77,24.0,720,721,True,False,False
+re2ss_orders_cpu_2,Sock Shop,RE2-SS,RE2,orders,cpu,CPU stress,2,77,24.0,720,721,True,False,False
+re2ss_orders_cpu_3,Sock Shop,RE2-SS,RE2,orders,cpu,CPU stress,3,77,24.0,720,721,True,False,False
+re2ss_orders_delay_1,Sock Shop,RE2-SS,RE2,orders,delay,network delay,1,80,24.0,720,721,True,False,False
+re2ss_orders_delay_2,Sock Shop,RE2-SS,RE2,orders,delay,network delay,2,74,24.0,720,721,True,False,False
+re2ss_orders_delay_3,Sock Shop,RE2-SS,RE2,orders,delay,network delay,3,74,24.0,720,721,True,False,False
+re2ss_orders_disk_1,Sock Shop,RE2-SS,RE2,orders,disk,disk I/O stress,1,79,24.0,720,721,True,False,False
+re2ss_orders_disk_2,Sock Shop,RE2-SS,RE2,orders,disk,disk I/O stress,2,76,24.0,720,721,True,False,False
+re2ss_orders_disk_3,Sock Shop,RE2-SS,RE2,orders,disk,disk I/O stress,3,78,24.0,720,721,True,False,False
+re2ss_orders_loss_1,Sock Shop,RE2-SS,RE2,orders,loss,network packet loss,1,77,24.0,720,721,True,False,False
+re2ss_orders_loss_2,Sock Shop,RE2-SS,RE2,orders,loss,network packet loss,2,76,24.0,720,721,True,False,False
+re2ss_orders_loss_3,Sock Shop,RE2-SS,RE2,orders,loss,network packet loss,3,76,24.0,720,721,True,False,False
+re2ss_orders_mem_1,Sock Shop,RE2-SS,RE2,orders,mem,memory stress,1,79,24.0,720,721,True,False,False
+re2ss_orders_mem_2,Sock Shop,RE2-SS,RE2,orders,mem,memory stress,2,77,24.0,720,721,True,False,False
+re2ss_orders_mem_3,Sock Shop,RE2-SS,RE2,orders,mem,memory stress,3,74,24.0,720,721,True,False,False
+re2ss_orders_socket_1,Sock Shop,RE2-SS,RE2,orders,socket,socket exhaustion,1,80,24.0,720,721,True,False,False
+re2ss_orders_socket_2,Sock Shop,RE2-SS,RE2,orders,socket,socket exhaustion,2,76,24.0,720,721,True,False,False
+re2ss_orders_socket_3,Sock Shop,RE2-SS,RE2,orders,socket,socket exhaustion,3,77,24.0,720,721,True,False,False
+re2ss_payment_cpu_1,Sock Shop,RE2-SS,RE2,payment,cpu,CPU stress,1,77,24.0,720,721,True,False,False
+re2ss_payment_cpu_2,Sock Shop,RE2-SS,RE2,payment,cpu,CPU stress,2,76,24.0,720,721,True,False,False
+re2ss_payment_cpu_3,Sock Shop,RE2-SS,RE2,payment,cpu,CPU stress,3,76,24.0,720,721,True,False,False
+re2ss_payment_delay_1,Sock Shop,RE2-SS,RE2,payment,delay,network delay,1,81,24.0,720,721,True,False,False
+re2ss_payment_delay_2,Sock Shop,RE2-SS,RE2,payment,delay,network delay,2,76,24.0,720,721,True,False,False
+re2ss_payment_delay_3,Sock Shop,RE2-SS,RE2,payment,delay,network delay,3,74,24.0,720,721,True,False,False
+re2ss_payment_disk_1,Sock Shop,RE2-SS,RE2,payment,disk,disk I/O stress,1,81,24.0,720,721,True,False,False
+re2ss_payment_disk_2,Sock Shop,RE2-SS,RE2,payment,disk,disk I/O stress,2,76,24.0,720,721,True,False,False
+re2ss_payment_disk_3,Sock Shop,RE2-SS,RE2,payment,disk,disk I/O stress,3,76,24.0,720,721,True,False,False
+re2ss_payment_loss_1,Sock Shop,RE2-SS,RE2,payment,loss,network packet loss,1,78,24.0,720,721,True,False,False
+re2ss_payment_loss_2,Sock Shop,RE2-SS,RE2,payment,loss,network packet loss,2,76,24.0,720,721,True,False,False
+re2ss_payment_loss_3,Sock Shop,RE2-SS,RE2,payment,loss,network packet loss,3,76,24.0,720,721,True,False,False
+re2ss_payment_mem_1,Sock Shop,RE2-SS,RE2,payment,mem,memory stress,1,77,24.0,720,721,True,False,False
+re2ss_payment_mem_2,Sock Shop,RE2-SS,RE2,payment,mem,memory stress,2,76,24.0,720,721,True,False,False
+re2ss_payment_mem_3,Sock Shop,RE2-SS,RE2,payment,mem,memory stress,3,76,24.0,720,721,True,False,False
+re2ss_payment_socket_1,Sock Shop,RE2-SS,RE2,payment,socket,socket exhaustion,1,81,24.0,720,721,True,False,False
+re2ss_payment_socket_2,Sock Shop,RE2-SS,RE2,payment,socket,socket exhaustion,2,76,24.0,720,721,True,False,False
+re2ss_payment_socket_3,Sock Shop,RE2-SS,RE2,payment,socket,socket exhaustion,3,76,24.0,720,721,True,False,False
+re2ss_user_cpu_1,Sock Shop,RE2-SS,RE2,user,cpu,CPU stress,1,78,24.0,720,721,True,False,False
+re2ss_user_cpu_2,Sock Shop,RE2-SS,RE2,user,cpu,CPU stress,2,76,24.0,720,721,True,False,False
+re2ss_user_cpu_3,Sock Shop,RE2-SS,RE2,user,cpu,CPU stress,3,76,24.0,720,721,True,False,False
+re2ss_user_delay_1,Sock Shop,RE2-SS,RE2,user,delay,network delay,1,82,24.0,720,721,True,False,False
+re2ss_user_delay_2,Sock Shop,RE2-SS,RE2,user,delay,network delay,2,75,24.0,720,721,True,False,False
+re2ss_user_delay_3,Sock Shop,RE2-SS,RE2,user,delay,network delay,3,75,24.0,720,721,True,False,False
+re2ss_user_disk_1,Sock Shop,RE2-SS,RE2,user,disk,disk I/O stress,1,82,24.0,720,721,True,False,False
+re2ss_user_disk_2,Sock Shop,RE2-SS,RE2,user,disk,disk I/O stress,2,74,24.0,720,721,True,False,False
+re2ss_user_disk_3,Sock Shop,RE2-SS,RE2,user,disk,disk I/O stress,3,74,24.0,720,721,True,False,False
+re2ss_user_loss_1,Sock Shop,RE2-SS,RE2,user,loss,network packet loss,1,79,24.0,720,721,True,False,False
+re2ss_user_loss_2,Sock Shop,RE2-SS,RE2,user,loss,network packet loss,2,78,24.0,720,721,True,False,False
+re2ss_user_loss_3,Sock Shop,RE2-SS,RE2,user,loss,network packet loss,3,78,24.0,720,721,True,False,False
+re2ss_user_mem_1,Sock Shop,RE2-SS,RE2,user,mem,memory stress,1,77,24.0,720,721,True,False,False
+re2ss_user_mem_2,Sock Shop,RE2-SS,RE2,user,mem,memory stress,2,74,24.0,720,721,True,False,False
+re2ss_user_mem_3,Sock Shop,RE2-SS,RE2,user,mem,memory stress,3,74,24.0,720,721,True,False,False
+re2ss_user_socket_1,Sock Shop,RE2-SS,RE2,user,socket,socket exhaustion,1,82,24.0,720,721,True,False,False
+re2ss_user_socket_2,Sock Shop,RE2-SS,RE2,user,socket,socket exhaustion,2,74,24.0,720,721,True,False,False
+re2ss_user_socket_3,Sock Shop,RE2-SS,RE2,user,socket,socket exhaustion,3,77,24.0,720,721,True,False,False
+re2tt_ts-auth-service_cpu_1,Train Ticket,RE2-TT,RE2,ts-auth-service,cpu,CPU stress,1,369,24.0,720,721,False,True,False
+re2tt_ts-auth-service_cpu_2,Train Ticket,RE2-TT,RE2,ts-auth-service,cpu,CPU stress,2,367,24.0,720,721,True,True,False
+re2tt_ts-auth-service_cpu_3,Train Ticket,RE2-TT,RE2,ts-auth-service,cpu,CPU stress,3,367,24.0,720,721,True,True,False
+re2tt_ts-auth-service_delay_1,Train Ticket,RE2-TT,RE2,ts-auth-service,delay,network delay,1,371,24.0,720,721,True,True,False
+re2tt_ts-auth-service_delay_2,Train Ticket,RE2-TT,RE2,ts-auth-service,delay,network delay,2,358,24.0,720,721,True,True,False
+re2tt_ts-auth-service_delay_3,Train Ticket,RE2-TT,RE2,ts-auth-service,delay,network delay,3,359,24.0,720,721,True,True,False
+re2tt_ts-auth-service_disk_1,Train Ticket,RE2-TT,RE2,ts-auth-service,disk,disk I/O stress,1,362,24.0,720,721,True,True,False
+re2tt_ts-auth-service_disk_2,Train Ticket,RE2-TT,RE2,ts-auth-service,disk,disk I/O stress,2,360,24.0,720,721,True,True,False
+re2tt_ts-auth-service_disk_3,Train Ticket,RE2-TT,RE2,ts-auth-service,disk,disk I/O stress,3,360,24.0,720,721,True,True,False
+re2tt_ts-auth-service_loss_1,Train Ticket,RE2-TT,RE2,ts-auth-service,loss,network packet loss,1,367,24.0,720,721,True,True,False
+re2tt_ts-auth-service_loss_2,Train Ticket,RE2-TT,RE2,ts-auth-service,loss,network packet loss,2,358,24.0,720,721,True,True,False
+re2tt_ts-auth-service_loss_3,Train Ticket,RE2-TT,RE2,ts-auth-service,loss,network packet loss,3,358,24.0,720,721,True,True,False
+re2tt_ts-auth-service_mem_1,Train Ticket,RE2-TT,RE2,ts-auth-service,mem,memory stress,1,367,24.0,720,721,True,True,False
+re2tt_ts-auth-service_mem_2,Train Ticket,RE2-TT,RE2,ts-auth-service,mem,memory stress,2,371,24.0,720,721,True,True,False
+re2tt_ts-auth-service_mem_3,Train Ticket,RE2-TT,RE2,ts-auth-service,mem,memory stress,3,359,24.0,720,721,True,True,False
+re2tt_ts-auth-service_socket_1,Train Ticket,RE2-TT,RE2,ts-auth-service,socket,socket exhaustion,1,362,24.0,720,721,True,True,False
+re2tt_ts-auth-service_socket_2,Train Ticket,RE2-TT,RE2,ts-auth-service,socket,socket exhaustion,2,359,24.0,720,721,True,True,False
+re2tt_ts-auth-service_socket_3,Train Ticket,RE2-TT,RE2,ts-auth-service,socket,socket exhaustion,3,367,24.0,720,721,True,True,False
+re2tt_ts-order-service_cpu_1,Train Ticket,RE2-TT,RE2,ts-order-service,cpu,CPU stress,1,357,24.0,720,721,True,True,False
+re2tt_ts-order-service_cpu_2,Train Ticket,RE2-TT,RE2,ts-order-service,cpu,CPU stress,2,367,24.0,720,721,True,True,False
+re2tt_ts-order-service_cpu_3,Train Ticket,RE2-TT,RE2,ts-order-service,cpu,CPU stress,3,368,24.0,720,721,True,True,False
+re2tt_ts-order-service_delay_1,Train Ticket,RE2-TT,RE2,ts-order-service,delay,network delay,1,374,24.0,720,721,True,True,False
+re2tt_ts-order-service_delay_2,Train Ticket,RE2-TT,RE2,ts-order-service,delay,network delay,2,345,24.0,720,721,True,True,False
+re2tt_ts-order-service_delay_3,Train Ticket,RE2-TT,RE2,ts-order-service,delay,network delay,3,345,24.0,720,721,True,True,False
+re2tt_ts-order-service_disk_1,Train Ticket,RE2-TT,RE2,ts-order-service,disk,disk I/O stress,1,371,24.0,720,721,True,True,False
+re2tt_ts-order-service_disk_2,Train Ticket,RE2-TT,RE2,ts-order-service,disk,disk I/O stress,2,340,24.0,720,721,True,True,False
+re2tt_ts-order-service_disk_3,Train Ticket,RE2-TT,RE2,ts-order-service,disk,disk I/O stress,3,340,24.0,720,721,True,True,False
+re2tt_ts-order-service_loss_1,Train Ticket,RE2-TT,RE2,ts-order-service,loss,network packet loss,1,373,24.0,720,721,True,True,False
+re2tt_ts-order-service_loss_2,Train Ticket,RE2-TT,RE2,ts-order-service,loss,network packet loss,2,345,24.0,720,721,True,True,False
+re2tt_ts-order-service_loss_3,Train Ticket,RE2-TT,RE2,ts-order-service,loss,network packet loss,3,345,24.0,720,721,True,True,False
+re2tt_ts-order-service_mem_1,Train Ticket,RE2-TT,RE2,ts-order-service,mem,memory stress,1,361,24.0,720,721,True,True,False
+re2tt_ts-order-service_mem_2,Train Ticket,RE2-TT,RE2,ts-order-service,mem,memory stress,2,359,24.0,720,721,True,True,False
+re2tt_ts-order-service_mem_3,Train Ticket,RE2-TT,RE2,ts-order-service,mem,memory stress,3,359,24.0,720,721,True,True,False
+re2tt_ts-order-service_socket_1,Train Ticket,RE2-TT,RE2,ts-order-service,socket,socket exhaustion,1,372,24.0,720,721,True,True,False
+re2tt_ts-order-service_socket_2,Train Ticket,RE2-TT,RE2,ts-order-service,socket,socket exhaustion,2,340,24.0,720,721,True,True,False
+re2tt_ts-order-service_socket_3,Train Ticket,RE2-TT,RE2,ts-order-service,socket,socket exhaustion,3,366,24.0,720,721,True,True,False
+re2tt_ts-route-service_cpu_1,Train Ticket,RE2-TT,RE2,ts-route-service,cpu,CPU stress,1,365,24.0,720,721,True,True,False
+re2tt_ts-route-service_cpu_2,Train Ticket,RE2-TT,RE2,ts-route-service,cpu,CPU stress,2,345,24.0,720,721,True,True,False
+re2tt_ts-route-service_cpu_3,Train Ticket,RE2-TT,RE2,ts-route-service,cpu,CPU stress,3,346,24.0,720,721,True,True,False
+re2tt_ts-route-service_delay_1,Train Ticket,RE2-TT,RE2,ts-route-service,delay,network delay,1,366,24.0,720,721,True,True,False
+re2tt_ts-route-service_delay_2,Train Ticket,RE2-TT,RE2,ts-route-service,delay,network delay,2,361,24.0,720,721,True,True,False
+re2tt_ts-route-service_delay_3,Train Ticket,RE2-TT,RE2,ts-route-service,delay,network delay,3,363,24.0,720,721,True,True,False
+re2tt_ts-route-service_disk_1,Train Ticket,RE2-TT,RE2,ts-route-service,disk,disk I/O stress,1,374,24.0,720,721,True,True,False
+re2tt_ts-route-service_disk_2,Train Ticket,RE2-TT,RE2,ts-route-service,disk,disk I/O stress,2,361,24.0,720,721,True,True,False
+re2tt_ts-route-service_disk_3,Train Ticket,RE2-TT,RE2,ts-route-service,disk,disk I/O stress,3,358,24.0,720,721,True,True,False
+re2tt_ts-route-service_loss_1,Train Ticket,RE2-TT,RE2,ts-route-service,loss,network packet loss,1,375,24.0,720,721,True,True,False
+re2tt_ts-route-service_loss_2,Train Ticket,RE2-TT,RE2,ts-route-service,loss,network packet loss,2,363,24.0,720,721,True,True,False
+re2tt_ts-route-service_loss_3,Train Ticket,RE2-TT,RE2,ts-route-service,loss,network packet loss,3,358,24.0,720,721,True,True,False
+re2tt_ts-route-service_mem_1,Train Ticket,RE2-TT,RE2,ts-route-service,mem,memory stress,1,373,24.0,720,721,True,True,False
+re2tt_ts-route-service_mem_2,Train Ticket,RE2-TT,RE2,ts-route-service,mem,memory stress,2,363,24.0,720,721,True,True,False
+re2tt_ts-route-service_mem_3,Train Ticket,RE2-TT,RE2,ts-route-service,mem,memory stress,3,361,24.0,720,721,True,True,False
+re2tt_ts-route-service_socket_1,Train Ticket,RE2-TT,RE2,ts-route-service,socket,socket exhaustion,1,375,24.0,720,721,True,True,False
+re2tt_ts-route-service_socket_2,Train Ticket,RE2-TT,RE2,ts-route-service,socket,socket exhaustion,2,361,24.0,720,721,True,True,False
+re2tt_ts-route-service_socket_3,Train Ticket,RE2-TT,RE2,ts-route-service,socket,socket exhaustion,3,361,24.0,720,721,True,True,False
+re2tt_ts-train-service_cpu_1,Train Ticket,RE2-TT,RE2,ts-train-service,cpu,CPU stress,1,370,24.0,720,721,True,True,False
+re2tt_ts-train-service_cpu_2,Train Ticket,RE2-TT,RE2,ts-train-service,cpu,CPU stress,2,368,24.0,720,721,True,True,False
+re2tt_ts-train-service_cpu_3,Train Ticket,RE2-TT,RE2,ts-train-service,cpu,CPU stress,3,369,24.0,720,721,True,True,False
+re2tt_ts-train-service_delay_1,Train Ticket,RE2-TT,RE2,ts-train-service,delay,network delay,1,371,24.0,720,721,True,True,False
+re2tt_ts-train-service_delay_2,Train Ticket,RE2-TT,RE2,ts-train-service,delay,network delay,2,358,24.0,720,721,True,True,False
+re2tt_ts-train-service_delay_3,Train Ticket,RE2-TT,RE2,ts-train-service,delay,network delay,3,358,24.0,720,721,True,True,False
+re2tt_ts-train-service_disk_1,Train Ticket,RE2-TT,RE2,ts-train-service,disk,disk I/O stress,1,356,24.0,720,721,True,True,False
+re2tt_ts-train-service_disk_2,Train Ticket,RE2-TT,RE2,ts-train-service,disk,disk I/O stress,2,365,24.0,720,721,True,True,False
+re2tt_ts-train-service_disk_3,Train Ticket,RE2-TT,RE2,ts-train-service,disk,disk I/O stress,3,366,24.0,720,721,True,True,False
+re2tt_ts-train-service_loss_1,Train Ticket,RE2-TT,RE2,ts-train-service,loss,network packet loss,1,369,24.0,720,721,True,True,False
+re2tt_ts-train-service_loss_2,Train Ticket,RE2-TT,RE2,ts-train-service,loss,network packet loss,2,361,24.0,720,721,True,True,False
+re2tt_ts-train-service_loss_3,Train Ticket,RE2-TT,RE2,ts-train-service,loss,network packet loss,3,363,24.0,720,721,True,True,False
+re2tt_ts-train-service_mem_1,Train Ticket,RE2-TT,RE2,ts-train-service,mem,memory stress,1,356,24.0,720,721,True,True,False
+re2tt_ts-train-service_mem_2,Train Ticket,RE2-TT,RE2,ts-train-service,mem,memory stress,2,365,24.0,720,721,True,True,False
+re2tt_ts-train-service_mem_3,Train Ticket,RE2-TT,RE2,ts-train-service,mem,memory stress,3,365,24.0,720,721,True,True,False
+re2tt_ts-train-service_socket_1,Train Ticket,RE2-TT,RE2,ts-train-service,socket,socket exhaustion,1,376,24.0,720,721,True,True,False
+re2tt_ts-train-service_socket_2,Train Ticket,RE2-TT,RE2,ts-train-service,socket,socket exhaustion,2,370,24.0,720,721,True,True,False
+re2tt_ts-train-service_socket_3,Train Ticket,RE2-TT,RE2,ts-train-service,socket,socket exhaustion,3,358,24.0,720,721,True,True,False
+re2tt_ts-travel-service_cpu_1,Train Ticket,RE2-TT,RE2,ts-travel-service,cpu,CPU stress,1,360,24.0,720,721,True,True,False
+re2tt_ts-travel-service_cpu_2,Train Ticket,RE2-TT,RE2,ts-travel-service,cpu,CPU stress,2,363,24.0,720,721,True,True,False
+re2tt_ts-travel-service_cpu_3,Train Ticket,RE2-TT,RE2,ts-travel-service,cpu,CPU stress,3,363,24.0,720,721,True,True,False
+re2tt_ts-travel-service_delay_1,Train Ticket,RE2-TT,RE2,ts-travel-service,delay,network delay,1,364,24.0,720,721,True,True,False
+re2tt_ts-travel-service_delay_2,Train Ticket,RE2-TT,RE2,ts-travel-service,delay,network delay,2,361,24.0,720,721,True,True,False
+re2tt_ts-travel-service_delay_3,Train Ticket,RE2-TT,RE2,ts-travel-service,delay,network delay,3,366,24.0,720,721,True,True,False
+re2tt_ts-travel-service_disk_1,Train Ticket,RE2-TT,RE2,ts-travel-service,disk,disk I/O stress,1,360,24.0,720,721,True,True,False
+re2tt_ts-travel-service_disk_2,Train Ticket,RE2-TT,RE2,ts-travel-service,disk,disk I/O stress,2,365,24.0,720,721,True,True,False
+re2tt_ts-travel-service_disk_3,Train Ticket,RE2-TT,RE2,ts-travel-service,disk,disk I/O stress,3,366,24.0,720,721,True,True,False
+re2tt_ts-travel-service_loss_1,Train Ticket,RE2-TT,RE2,ts-travel-service,loss,network packet loss,1,359,24.0,720,721,True,True,False
+re2tt_ts-travel-service_loss_2,Train Ticket,RE2-TT,RE2,ts-travel-service,loss,network packet loss,2,368,24.0,720,721,True,True,False
+re2tt_ts-travel-service_loss_3,Train Ticket,RE2-TT,RE2,ts-travel-service,loss,network packet loss,3,361,24.0,720,721,True,True,False
+re2tt_ts-travel-service_mem_1,Train Ticket,RE2-TT,RE2,ts-travel-service,mem,memory stress,1,359,24.0,720,721,True,True,False
+re2tt_ts-travel-service_mem_2,Train Ticket,RE2-TT,RE2,ts-travel-service,mem,memory stress,2,369,24.0,720,721,True,True,False
+re2tt_ts-travel-service_mem_3,Train Ticket,RE2-TT,RE2,ts-travel-service,mem,memory stress,3,359,24.0,720,721,True,True,False
+re2tt_ts-travel-service_socket_1,Train Ticket,RE2-TT,RE2,ts-travel-service,socket,socket exhaustion,1,368,24.0,720,721,True,True,False
+re2tt_ts-travel-service_socket_2,Train Ticket,RE2-TT,RE2,ts-travel-service,socket,socket exhaustion,2,361,24.0,720,721,True,True,False
+re2tt_ts-travel-service_socket_3,Train Ticket,RE2-TT,RE2,ts-travel-service,socket,socket exhaustion,3,359,24.0,720,721,True,True,False
+re3ob_adservice_f3_1,Online Boutique,RE3-OB,RE3,adservice,f3,code-level fault F3,1,69,24.0,720,721,True,True,False
+re3ob_adservice_f3_2,Online Boutique,RE3-OB,RE3,adservice,f3,code-level fault F3,2,100,24.0,720,721,True,True,False
+re3ob_adservice_f3_3,Online Boutique,RE3-OB,RE3,adservice,f3,code-level fault F3,3,101,24.0,720,721,True,True,False
+re3ob_adservice_f4_1,Online Boutique,RE3-OB,RE3,adservice,f4,code-level fault F4,1,69,24.0,720,721,True,True,False
+re3ob_adservice_f4_2,Online Boutique,RE3-OB,RE3,adservice,f4,code-level fault F4,2,68,24.0,720,721,True,True,False
+re3ob_adservice_f4_3,Online Boutique,RE3-OB,RE3,adservice,f4,code-level fault F4,3,68,24.0,720,721,True,True,False
+re3ob_adservice_f5_1,Online Boutique,RE3-OB,RE3,adservice,f5,code-level fault F5,1,69,24.0,720,721,True,True,False
+re3ob_adservice_f5_2,Online Boutique,RE3-OB,RE3,adservice,f5,code-level fault F5,2,68,24.0,720,721,True,True,False
+re3ob_adservice_f5_3,Online Boutique,RE3-OB,RE3,adservice,f5,code-level fault F5,3,68,24.0,720,721,True,True,False
+re3ob_cartservice_f1_1,Online Boutique,RE3-OB,RE3,cartservice,f1,code-level fault F1,1,69,24.0,720,721,True,True,False
+re3ob_cartservice_f1_2,Online Boutique,RE3-OB,RE3,cartservice,f1,code-level fault F1,2,68,24.0,720,721,True,True,False
+re3ob_cartservice_f1_3,Online Boutique,RE3-OB,RE3,cartservice,f1,code-level fault F1,3,68,24.0,720,721,True,True,False
+re3ob_currencyservice_f1_1,Online Boutique,RE3-OB,RE3,currencyservice,f1,code-level fault F1,1,68,24.0,720,721,True,True,False
+re3ob_currencyservice_f1_2,Online Boutique,RE3-OB,RE3,currencyservice,f1,code-level fault F1,2,68,24.0,720,721,True,True,False
+re3ob_currencyservice_f1_3,Online Boutique,RE3-OB,RE3,currencyservice,f1,code-level fault F1,3,69,24.0,720,721,True,True,False
+re3ob_emailservice_f1_1,Online Boutique,RE3-OB,RE3,emailservice,f1,code-level fault F1,1,68,24.0,720,721,True,True,False
+re3ob_emailservice_f1_2,Online Boutique,RE3-OB,RE3,emailservice,f1,code-level fault F1,2,68,24.0,720,721,True,True,False
+re3ob_emailservice_f1_3,Online Boutique,RE3-OB,RE3,emailservice,f1,code-level fault F1,3,68,24.0,720,721,True,True,False
+re3ob_emailservice_f2_1,Online Boutique,RE3-OB,RE3,emailservice,f2,code-level fault F2,1,68,24.0,720,721,True,True,False
+re3ob_emailservice_f2_2,Online Boutique,RE3-OB,RE3,emailservice,f2,code-level fault F2,2,68,24.0,720,721,True,True,False
+re3ob_emailservice_f2_3,Online Boutique,RE3-OB,RE3,emailservice,f2,code-level fault F2,3,68,24.0,720,721,True,True,False
+re3ob_emailservice_f3_1,Online Boutique,RE3-OB,RE3,emailservice,f3,code-level fault F3,1,68,24.0,720,721,True,True,False
+re3ob_emailservice_f3_2,Online Boutique,RE3-OB,RE3,emailservice,f3,code-level fault F3,2,68,24.0,720,721,True,True,False
+re3ob_emailservice_f3_3,Online Boutique,RE3-OB,RE3,emailservice,f3,code-level fault F3,3,68,24.0,720,721,True,True,False
+re3ob_emailservice_f4_1,Online Boutique,RE3-OB,RE3,emailservice,f4,code-level fault F4,1,68,24.0,720,721,True,True,False
+re3ob_emailservice_f4_2,Online Boutique,RE3-OB,RE3,emailservice,f4,code-level fault F4,2,68,24.0,720,721,True,True,False
+re3ob_emailservice_f4_3,Online Boutique,RE3-OB,RE3,emailservice,f4,code-level fault F4,3,68,24.0,720,721,True,True,False
+re3ob_emailservice_f5_1,Online Boutique,RE3-OB,RE3,emailservice,f5,code-level fault F5,1,68,24.0,720,721,True,True,False
+re3ob_emailservice_f5_2,Online Boutique,RE3-OB,RE3,emailservice,f5,code-level fault F5,2,68,24.0,720,721,True,True,False
+re3ob_emailservice_f5_3,Online Boutique,RE3-OB,RE3,emailservice,f5,code-level fault F5,3,68,24.0,720,721,True,True,False
+re3ss_carts_f1_1,Sock Shop,RE3-SS,RE3,carts,f1,code-level fault F1,1,80,24.0,720,721,True,False,True
+re3ss_carts_f1_2,Sock Shop,RE3-SS,RE3,carts,f1,code-level fault F1,2,81,24.0,720,721,True,False,True
+re3ss_carts_f1_3,Sock Shop,RE3-SS,RE3,carts,f1,code-level fault F1,3,107,24.0,720,721,True,False,False
+re3ss_carts_f1_4,Sock Shop,RE3-SS,RE3,carts,f1,code-level fault F1,4,86,24.0,720,721,True,False,False
+re3ss_carts_f3_1,Sock Shop,RE3-SS,RE3,carts,f3,code-level fault F3,1,80,24.0,720,721,True,False,True
+re3ss_carts_f3_2,Sock Shop,RE3-SS,RE3,carts,f3,code-level fault F3,2,81,24.0,720,721,True,False,True
+re3ss_carts_f3_3,Sock Shop,RE3-SS,RE3,carts,f3,code-level fault F3,3,85,24.0,720,721,True,False,False
+re3ss_carts_f3_4,Sock Shop,RE3-SS,RE3,carts,f3,code-level fault F3,4,86,24.0,720,721,True,False,False
+re3ss_carts_f4_1,Sock Shop,RE3-SS,RE3,carts,f4,code-level fault F4,1,80,24.0,720,721,True,False,False
+re3ss_carts_f4_2,Sock Shop,RE3-SS,RE3,carts,f4,code-level fault F4,2,81,24.0,720,721,True,False,False
+re3ss_carts_f4_3,Sock Shop,RE3-SS,RE3,carts,f4,code-level fault F4,3,85,24.0,720,721,True,False,False
+re3ss_carts_f4_4,Sock Shop,RE3-SS,RE3,carts,f4,code-level fault F4,4,86,24.0,720,721,True,False,False
+re3ss_front-end_f1_1,Sock Shop,RE3-SS,RE3,front-end,f1,code-level fault F1,1,80,24.0,720,721,True,False,True
+re3ss_front-end_f1_2,Sock Shop,RE3-SS,RE3,front-end,f1,code-level fault F1,2,81,24.0,720,721,True,False,True
+re3ss_front-end_f1_3,Sock Shop,RE3-SS,RE3,front-end,f1,code-level fault F1,3,84,24.0,720,721,True,False,False
+re3ss_front-end_f2_1,Sock Shop,RE3-SS,RE3,front-end,f2,code-level fault F2,1,80,24.0,720,721,True,False,True
+re3ss_front-end_f2_2,Sock Shop,RE3-SS,RE3,front-end,f2,code-level fault F2,2,81,24.0,720,721,True,False,True
+re3ss_front-end_f2_3,Sock Shop,RE3-SS,RE3,front-end,f2,code-level fault F2,3,84,24.0,720,721,True,False,False
+re3ss_front-end_f3_1,Sock Shop,RE3-SS,RE3,front-end,f3,code-level fault F3,1,81,24.0,720,721,True,False,False
+re3ss_front-end_f3_2,Sock Shop,RE3-SS,RE3,front-end,f3,code-level fault F3,2,80,24.0,720,721,True,False,False
+re3ss_front-end_f3_3,Sock Shop,RE3-SS,RE3,front-end,f3,code-level fault F3,3,84,24.0,720,721,True,False,False
+re3ss_orders_f1_1,Sock Shop,RE3-SS,RE3,orders,f1,code-level fault F1,1,82,24.0,720,721,True,False,False
+re3ss_orders_f1_2,Sock Shop,RE3-SS,RE3,orders,f1,code-level fault F1,2,81,24.0,720,721,True,False,False
+re3ss_orders_f1_3,Sock Shop,RE3-SS,RE3,orders,f1,code-level fault F1,3,84,24.0,720,721,True,False,False
+re3ss_orders_f3_1,Sock Shop,RE3-SS,RE3,orders,f3,code-level fault F3,1,81,24.0,720,721,True,False,False
+re3ss_orders_f3_2,Sock Shop,RE3-SS,RE3,orders,f3,code-level fault F3,2,81,24.0,720,721,True,False,False
+re3ss_orders_f3_3,Sock Shop,RE3-SS,RE3,orders,f3,code-level fault F3,3,83,24.0,720,721,True,False,False
+re3ss_orders_f4_1,Sock Shop,RE3-SS,RE3,orders,f4,code-level fault F4,1,81,24.0,720,721,True,False,False
+re3ss_orders_f4_2,Sock Shop,RE3-SS,RE3,orders,f4,code-level fault F4,2,81,24.0,720,721,True,False,False
+re3ss_orders_f4_3,Sock Shop,RE3-SS,RE3,orders,f4,code-level fault F4,3,84,24.0,720,721,True,False,False
+re3tt_ts-auth-service_f1_1,Train Ticket,RE3-TT,RE3,ts-auth-service,f1,code-level fault F1,1,315,30.0,900,901,True,True,False
+re3tt_ts-auth-service_f1_2,Train Ticket,RE3-TT,RE3,ts-auth-service,f1,code-level fault F1,2,315,30.0,900,901,True,True,False
+re3tt_ts-auth-service_f1_3,Train Ticket,RE3-TT,RE3,ts-auth-service,f1,code-level fault F1,3,319,30.0,900,901,True,True,False
+re3tt_ts-auth-service_f1_4,Train Ticket,RE3-TT,RE3,ts-auth-service,f1,code-level fault F1,4,298,30.0,900,901,True,True,False
+re3tt_ts-auth-service_f2_1,Train Ticket,RE3-TT,RE3,ts-auth-service,f2,code-level fault F2,1,319,30.0,900,901,True,True,False
+re3tt_ts-auth-service_f2_2,Train Ticket,RE3-TT,RE3,ts-auth-service,f2,code-level fault F2,2,315,30.0,900,901,True,True,False
+re3tt_ts-auth-service_f2_3,Train Ticket,RE3-TT,RE3,ts-auth-service,f2,code-level fault F2,3,320,30.0,900,901,True,True,False
+re3tt_ts-auth-service_f2_4,Train Ticket,RE3-TT,RE3,ts-auth-service,f2,code-level fault F2,4,294,30.0,900,901,True,True,False
+re3tt_ts-auth-service_f3_1,Train Ticket,RE3-TT,RE3,ts-auth-service,f3,code-level fault F3,1,320,30.0,900,901,True,True,False
+re3tt_ts-auth-service_f3_2,Train Ticket,RE3-TT,RE3,ts-auth-service,f3,code-level fault F3,2,319,30.0,900,901,True,True,False
+re3tt_ts-auth-service_f3_3,Train Ticket,RE3-TT,RE3,ts-auth-service,f3,code-level fault F3,3,322,30.0,900,901,True,True,False
+re3tt_ts-auth-service_f3_4,Train Ticket,RE3-TT,RE3,ts-auth-service,f3,code-level fault F3,4,298,30.0,900,901,True,True,False
+re3tt_ts-auth-service_f4_1,Train Ticket,RE3-TT,RE3,ts-auth-service,f4,code-level fault F4,1,317,30.0,900,901,True,True,False
+re3tt_ts-auth-service_f4_2,Train Ticket,RE3-TT,RE3,ts-auth-service,f4,code-level fault F4,2,320,30.0,900,901,True,True,False
+re3tt_ts-auth-service_f4_3,Train Ticket,RE3-TT,RE3,ts-auth-service,f4,code-level fault F4,3,317,30.0,900,901,True,True,False
+re3tt_ts-route-service_f1_1,Train Ticket,RE3-TT,RE3,ts-route-service,f1,code-level fault F1,1,318,30.0,900,901,True,True,False
+re3tt_ts-route-service_f1_2,Train Ticket,RE3-TT,RE3,ts-route-service,f1,code-level fault F1,2,315,30.0,900,901,True,True,False
+re3tt_ts-route-service_f1_3,Train Ticket,RE3-TT,RE3,ts-route-service,f1,code-level fault F1,3,316,30.0,900,901,True,True,False
+re3tt_ts-route-service_f2_1,Train Ticket,RE3-TT,RE3,ts-route-service,f2,code-level fault F2,1,316,30.0,900,901,True,True,False
+re3tt_ts-route-service_f2_2,Train Ticket,RE3-TT,RE3,ts-route-service,f2,code-level fault F2,2,317,30.0,900,901,True,True,False
+re3tt_ts-route-service_f2_3,Train Ticket,RE3-TT,RE3,ts-route-service,f2,code-level fault F2,3,318,30.0,900,901,True,True,False
+re3tt_ts-route-service_f3_1,Train Ticket,RE3-TT,RE3,ts-route-service,f3,code-level fault F3,1,315,30.0,900,901,True,True,False
+re3tt_ts-route-service_f3_2,Train Ticket,RE3-TT,RE3,ts-route-service,f3,code-level fault F3,2,316,30.0,900,901,True,True,False
+re3tt_ts-route-service_f3_3,Train Ticket,RE3-TT,RE3,ts-route-service,f3,code-level fault F3,3,317,30.0,900,901,True,True,False
+re3tt_ts-route-service_f3_4,Train Ticket,RE3-TT,RE3,ts-route-service,f3,code-level fault F3,4,316,30.0,900,901,True,True,False
+re3tt_ts-route-service_f3_5,Train Ticket,RE3-TT,RE3,ts-route-service,f3,code-level fault F3,5,315,30.0,900,901,True,True,False
+re3tt_ts-route-service_f3_6,Train Ticket,RE3-TT,RE3,ts-route-service,f3,code-level fault F3,6,316,30.0,900,901,True,True,False
+re3tt_ts-route-service_f4_1,Train Ticket,RE3-TT,RE3,ts-route-service,f4,code-level fault F4,1,318,30.0,900,901,True,True,False
+re3tt_ts-route-service_f4_2,Train Ticket,RE3-TT,RE3,ts-route-service,f4,code-level fault F4,2,316,30.0,900,901,True,True,False
+re3tt_ts-route-service_f4_3,Train Ticket,RE3-TT,RE3,ts-route-service,f4,code-level fault F4,3,318,30.0,900,901,True,True,False

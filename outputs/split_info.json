@@ -1,0 +1,18 @@
+{
+  "method": "StratifiedGroupKFold(n_splits=5, shuffle=True), first fold used as the 20% test set",
+  "group_definition": "application | root-cause service | fault type",
+  "random_seed": 42,
+  "train_records": 586,
+  "test_records": 147,
+  "train_groups": 101,
+  "test_groups": 26,
+  "classes_total": 18,
+  "classes_in_train": 18,
+  "classes_in_test": 17,
+  "test_classes_missing_from_train": [],
+  "test_records_per_application": {
+    "Online Boutique": 51,
+    "Train Ticket": 50,
+    "Sock Shop": 46
+  }
+}

@@ -1,0 +1,27 @@
+algorithm,metric,value
+"Bayesian Network (pgmpy, Variable Elimination)",top1_accuracy,0.8775510204081632
+"Bayesian Network (pgmpy, Variable Elimination)",top3_accuracy,0.9727891156462585
+"Bayesian Network (pgmpy, Variable Elimination)",top5_accuracy,0.9931972789115646
+"Bayesian Network (pgmpy, Variable Elimination)",balanced_accuracy,0.8654783125371361
+"Bayesian Network (pgmpy, Variable Elimination)",macro_f1,0.8089480160047082
+"Bayesian Network (pgmpy, Variable Elimination)",fault_type_top1_accuracy,0.061224489795918366
+Baseline: global majority class,top1_accuracy,0.05442176870748299
+Baseline: global majority class,top3_accuracy,0.2108843537414966
+Baseline: global majority class,top5_accuracy,0.3401360544217687
+Baseline: global majority class,balanced_accuracy,0.058823529411764705
+Baseline: global majority class,macro_f1,0.0060721062618595825
+Baseline: majority class per application,top1_accuracy,0.1836734693877551
+Baseline: majority class per application,top3_accuracy,0.5918367346938775
+Baseline: majority class per application,top5_accuracy,0.9455782312925171
+Baseline: majority class per application,balanced_accuracy,0.17647058823529413
+Baseline: majority class per application,macro_f1,0.0545963808634812
+Benchmark: Extra Trees (500 trees),top1_accuracy,0.9591836734693877
+Benchmark: Extra Trees (500 trees),top3_accuracy,0.9931972789115646
+Benchmark: Extra Trees (500 trees),top5_accuracy,1.0
+Benchmark: Extra Trees (500 trees),balanced_accuracy,0.9663101604278076
+Benchmark: Extra Trees (500 trees),macro_f1,0.9607939714022395
+Training-set check: Bayesian Network,top1_accuracy,0.9795221843003413
+Training-set check: Bayesian Network,top3_accuracy,1.0
+Training-set check: Bayesian Network,top5_accuracy,1.0
+Training-set check: Bayesian Network,balanced_accuracy,0.9803760864902169
+Training-set check: Bayesian Network,macro_f1,0.9764323155031696

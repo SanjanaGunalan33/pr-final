@@ -1,0 +1,52 @@
+{
+  "selected_config": {
+    "representation": "localized",
+    "change": "relative",
+    "quiet_quantile": 0.1
+  },
+  "nodes": 35,
+  "edges": 42,
+  "cpds_valid": true,
+  "train_records": 586,
+  "test_records": 147,
+  "bayesian_network": {
+    "top1_accuracy": 0.8775510204081632,
+    "top3_accuracy": 0.9727891156462585,
+    "top5_accuracy": 0.9931972789115646,
+    "balanced_accuracy": 0.8654783125371361,
+    "macro_f1": 0.8089480160047082,
+    "fault_type_top1_accuracy": 0.061224489795918366
+  },
+  "training_set_check": {
+    "top1_accuracy": 0.9795221843003413,
+    "top3_accuracy": 1.0,
+    "top5_accuracy": 1.0,
+    "balanced_accuracy": 0.9803760864902169,
+    "macro_f1": 0.9764323155031696
+  },
+  "majority_global": {
+    "top1_accuracy": 0.05442176870748299,
+    "top3_accuracy": 0.2108843537414966,
+    "top5_accuracy": 0.3401360544217687,
+    "balanced_accuracy": 0.058823529411764705,
+    "macro_f1": 0.0060721062618595825
+  },
+  "majority_per_application": {
+    "top1_accuracy": 0.1836734693877551,
+    "top3_accuracy": 0.5918367346938775,
+    "top5_accuracy": 0.9455782312925171,
+    "balanced_accuracy": 0.17647058823529413,
+    "macro_f1": 0.0545963808634812
+  },
+  "extra_trees_benchmark": {
+    "top1_accuracy": 0.9591836734693877,
+    "top3_accuracy": 0.9931972789115646,
+    "top5_accuracy": 1.0,
+    "balanced_accuracy": 0.9663101604278076,
+    "macro_f1": 0.9607939714022395
+  },
+  "robustness_cv_mean_top1": 0.8867443435646418,
+  "robustness_cv_std_top1": 0.009480109855465246,
+  "target_70pct_top1_reached": true,
+  "runtime_seconds": 88.8
+}

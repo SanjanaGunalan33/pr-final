@@ -1,0 +1,36 @@
+node,role,parents,n_states,cpt_shape (states x parent combos)
+Application,root,-,3,3x1
+FaultType,intermediate,"RootCause, Application",11,11x54
+RootCause,intermediate,Application,18,18x3
+Cause__adservice,leaf,RootCause,2,2x18
+Cause__carts,leaf,RootCause,2,2x18
+Cause__cartservice,leaf,RootCause,2,2x18
+Cause__catalogue,leaf,RootCause,2,2x18
+Cause__checkoutservice,leaf,RootCause,2,2x18
+Cause__currencyservice,leaf,RootCause,2,2x18
+Cause__emailservice,leaf,RootCause,2,2x18
+Cause__front_end,leaf,RootCause,2,2x18
+Cause__orders,leaf,RootCause,2,2x18
+Cause__payment,leaf,RootCause,2,2x18
+Cause__productcatalogservice,leaf,RootCause,2,2x18
+Cause__recommendationservice,leaf,RootCause,2,2x18
+Cause__ts_auth_service,leaf,RootCause,2,2x18
+Cause__ts_order_service,leaf,RootCause,2,2x18
+Cause__ts_route_service,leaf,RootCause,2,2x18
+Cause__ts_train_service,leaf,RootCause,2,2x18
+Cause__ts_travel_service,leaf,RootCause,2,2x18
+Cause__user,leaf,RootCause,2,2x18
+Level_cpu,leaf,"FaultType, Application",4,4x33
+Level_diskio,leaf,"FaultType, Application",4,4x33
+Level_error,leaf,"FaultType, Application",4,4x33
+Level_latency,leaf,"FaultType, Application",4,4x33
+Level_mem,leaf,"FaultType, Application",4,4x33
+Level_socket,leaf,"FaultType, Application",4,4x33
+Level_workload,leaf,"FaultType, Application",4,4x33
+Loc_cpu,leaf,RootCause,21,21x18
+Loc_diskio,leaf,RootCause,21,21x18
+Loc_error,leaf,RootCause,21,21x18
+Loc_latency,leaf,RootCause,21,21x18
+Loc_mem,leaf,RootCause,21,21x18
+Loc_socket,leaf,RootCause,21,21x18
+Loc_workload,leaf,RootCause,21,21x18

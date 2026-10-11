@@ -1,0 +1,361 @@
+{
+  "representation": "localized",
+  "change": "relative",
+  "quiet_quantile": 0.1,
+  "families_used": [
+    "cpu",
+    "diskio",
+    "error",
+    "latency",
+    "mem",
+    "socket",
+    "workload"
+  ],
+  "family_coverage_in_train": {
+    "cpu": 1.0,
+    "diskio": 0.48976109215017066,
+    "error": 0.9539249146757679,
+    "latency": 1.0,
+    "load": 0.051194539249146756,
+    "mem": 1.0,
+    "socket": 0.48976109215017066,
+    "workload": 0.9488054607508533
+  },
+  "candidate_root_causes": [
+    "adservice",
+    "carts",
+    "cartservice",
+    "catalogue",
+    "checkoutservice",
+    "currencyservice",
+    "emailservice",
+    "front-end",
+    "orders",
+    "payment",
+    "productcatalogservice",
+    "recommendationservice",
+    "ts-auth-service",
+    "ts-order-service",
+    "ts-route-service",
+    "ts-train-service",
+    "ts-travel-service",
+    "user"
+  ],
+  "metric_columns_considered": 583,
+  "bdeu_equivalent_sample_size": 10,
+  "state_names": {
+    "Application": [
+      "Online Boutique",
+      "Sock Shop",
+      "Train Ticket"
+    ],
+    "RootCause": [
+      "adservice",
+      "carts",
+      "cartservice",
+      "catalogue",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "front-end",
+      "orders",
+      "payment",
+      "productcatalogservice",
+      "recommendationservice",
+      "ts-auth-service",
+      "ts-order-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-travel-service",
+      "user"
+    ],
+    "FaultType": [
+      "cpu",
+      "delay",
+      "disk",
+      "f1",
+      "f2",
+      "f3",
+      "f4",
+      "f5",
+      "loss",
+      "mem",
+      "socket"
+    ],
+    "Cause__adservice": [
+      "False",
+      "True"
+    ],
+    "Cause__carts": [
+      "False",
+      "True"
+    ],
+    "Cause__cartservice": [
+      "False",
+      "True"
+    ],
+    "Cause__catalogue": [
+      "False",
+      "True"
+    ],
+    "Cause__checkoutservice": [
+      "False",
+      "True"
+    ],
+    "Cause__currencyservice": [
+      "False",
+      "True"
+    ],
+    "Cause__emailservice": [
+      "False",
+      "True"
+    ],
+    "Cause__front_end": [
+      "False",
+      "True"
+    ],
+    "Cause__orders": [
+      "False",
+      "True"
+    ],
+    "Cause__payment": [
+      "False",
+      "True"
+    ],
+    "Cause__productcatalogservice": [
+      "False",
+      "True"
+    ],
+    "Cause__recommendationservice": [
+      "False",
+      "True"
+    ],
+    "Cause__ts_auth_service": [
+      "False",
+      "True"
+    ],
+    "Cause__ts_order_service": [
+      "False",
+      "True"
+    ],
+    "Cause__ts_route_service": [
+      "False",
+      "True"
+    ],
+    "Cause__ts_train_service": [
+      "False",
+      "True"
+    ],
+    "Cause__ts_travel_service": [
+      "False",
+      "True"
+    ],
+    "Cause__user": [
+      "False",
+      "True"
+    ],
+    "Level_cpu": [
+      "Low",
+      "Medium",
+      "High",
+      "Unknown"
+    ],
+    "Level_diskio": [
+      "Low",
+      "Medium",
+      "High",
+      "Unknown"
+    ],
+    "Level_error": [
+      "Low",
+      "Medium",
+      "High",
+      "Unknown"
+    ],
+    "Level_latency": [
+      "Low",
+      "Medium",
+      "High",
+      "Unknown"
+    ],
+    "Level_mem": [
+      "Low",
+      "Medium",
+      "High",
+      "Unknown"
+    ],
+    "Level_socket": [
+      "Low",
+      "Medium",
+      "High",
+      "Unknown"
+    ],
+    "Level_workload": [
+      "Low",
+      "Medium",
+      "High",
+      "Unknown"
+    ],
+    "Loc_cpu": [
+      "Quiet",
+      "Other",
+      "adservice",
+      "carts",
+      "cartservice",
+      "catalogue",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "front-end",
+      "orders",
+      "payment",
+      "productcatalogservice",
+      "recommendationservice",
+      "ts-auth-service",
+      "ts-order-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-travel-service",
+      "user",
+      "Unknown"
+    ],
+    "Loc_diskio": [
+      "Quiet",
+      "Other",
+      "adservice",
+      "carts",
+      "cartservice",
+      "catalogue",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "front-end",
+      "orders",
+      "payment",
+      "productcatalogservice",
+      "recommendationservice",
+      "ts-auth-service",
+      "ts-order-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-travel-service",
+      "user",
+      "Unknown"
+    ],
+    "Loc_error": [
+      "Quiet",
+      "Other",
+      "adservice",
+      "carts",
+      "cartservice",
+      "catalogue",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "front-end",
+      "orders",
+      "payment",
+      "productcatalogservice",
+      "recommendationservice",
+      "ts-auth-service",
+      "ts-order-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-travel-service",
+      "user",
+      "Unknown"
+    ],
+    "Loc_latency": [
+      "Quiet",
+      "Other",
+      "adservice",
+      "carts",
+      "cartservice",
+      "catalogue",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "front-end",
+      "orders",
+      "payment",
+      "productcatalogservice",
+      "recommendationservice",
+      "ts-auth-service",
+      "ts-order-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-travel-service",
+      "user",
+      "Unknown"
+    ],
+    "Loc_mem": [
+      "Quiet",
+      "Other",
+      "adservice",
+      "carts",
+      "cartservice",
+      "catalogue",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "front-end",
+      "orders",
+      "payment",
+      "productcatalogservice",
+      "recommendationservice",
+      "ts-auth-service",
+      "ts-order-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-travel-service",
+      "user",
+      "Unknown"
+    ],
+    "Loc_socket": [
+      "Quiet",
+      "Other",
+      "adservice",
+      "carts",
+      "cartservice",
+      "catalogue",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "front-end",
+      "orders",
+      "payment",
+      "productcatalogservice",
+      "recommendationservice",
+      "ts-auth-service",
+      "ts-order-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-travel-service",
+      "user",
+      "Unknown"
+    ],
+    "Loc_workload": [
+      "Quiet",
+      "Other",
+      "adservice",
+      "carts",
+      "cartservice",
+      "catalogue",
+      "checkoutservice",
+      "currencyservice",
+      "emailservice",
+      "front-end",
+      "orders",
+      "payment",
+      "productcatalogservice",
+      "recommendationservice",
+      "ts-auth-service",
+      "ts-order-service",
+      "ts-route-service",
+      "ts-train-service",
+      "ts-travel-service",
+      "user",
+      "Unknown"
+    ]
+  }
+}
